@@ -1,0 +1,4297 @@
+Summary
+		Operating System
+			Windows 10 Home 64-bit
+		CPU
+			Intel Core i7 8750H @ 2.20GHz	51 °C
+			Coffee Lake 14nm Technology
+		RAM
+			16,0GB Single-Channel Unknown @ 1330MHz (19-19-19-43)
+		Motherboard
+			Micro-Star International Co. Ltd. MS-17F1 (U3E1)
+		Graphics
+			Generic PnP Monitor (1920x1080@60Hz)
+			Intel UHD Graphics 630 (MSI)
+			4095MB NVIDIA GeForce GTX 1050 Ti with Max-Q Design (MSI)	37 °C
+			SLI Disabled
+		Storage
+			476GB Western Digital WDC PC SN520 SDAPNUW-512G (Unknown (SSD))
+			931GB Seagate ST1000LM049-2GH172 (SATA (SSD))	30 °C
+		Optical Drives
+			No optical disk drives detected
+		Audio
+			NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+Operating System
+	Windows 10 Home 64-bit
+	Computer type: Notebook
+	Installation Date: 26/12/2019 19:25:23
+	Serial Number: Q74DP-8PV6F-VGXDV-32GJM-7MHX3
+		Windows Security Center
+			User Account Control (UAC)	Enabled
+			Notify level	2 - Default
+		Windows Update
+			AutoUpdate	Not configured
+		Windows Defender
+			Windows Defender	Disabled
+		Firewall
+			Firewall	Enabled
+			Display Name	Norton Security
+		Antivirus
+				Norton 360
+					Antivirus	Enabled
+					Virus Signature Database	Up to date
+				Windows Defender
+					Antivirus	Disabled
+					Virus Signature Database	Up to date
+		.NET Frameworks installed
+			v4.8 Full
+			v4.8 Client
+			v3.5 SP1
+			v3.0 SP2
+			v2.0 SP2
+		Internet Explorer
+			Version	11.1198.18362.0
+		PowerShell
+			Version	5.1.18362.1
+		Java
+				Java Runtime Environment
+					Path	C:\Program Files\Java\jdk1.7.0_80\bin\java.exe
+					Version	7.0
+					Update	80
+					Build	15
+				Java Runtime Environment
+					Path	C:\Program Files\Java\jdk1.8.0_241\bin\java.exe
+					Version	8.0
+					Update	241
+					Build	07
+				Java Runtime Environment
+					Path	C:\Program Files\Java\jre1.8.0_271\bin\java.exe
+					Version	8.0
+					Update	271
+					Build	09
+		Environment Variables
+			USERPROFILE	C:\Users\piter
+			SystemRoot	C:\WINDOWS
+				User Variables
+					ChocolateyLastPathUpdate	132383769807177925
+					OneDrive	C:\Users\piter\OneDrive
+					OneDriveConsumer	C:\Users\piter\OneDrive
+					Path	C:\Users\piter\AppData\Local\Microsoft\WindowsApps
+					D:\SOFTWARE\Microsoft VS Code\bin
+					C:\Users\piter\AppData\Roaming\npm
+					C:\Users\piter\AppData\Local\Yarn\bin
+					QT_DEVICE_PIXEL_RATIO	auto
+					TEMP	C:\Users\piter\AppData\Local\Temp
+					TMP	C:\Users\piter\AppData\Local\Temp
+				Machine Variables
+					ChocolateyInstall	C:\ProgramData\chocolatey
+					ComSpec	C:\WINDOWS\system32\cmd.exe
+					configsetroot	C:\WINDOWS\ConfigSetRoot
+					DriverData	C:\Windows\System32\Drivers\DriverData
+					NUMBER_OF_PROCESSORS	12
+					OS	Windows_NT
+					Path	C:\Ruby26-x64\bin
+					C:\Python38\Scripts\
+					C:\Python38\
+					C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+					C:\Program Files (x86)\Intel\Intel Management Engine Components\iCLS\
+					C:\Program Files\Intel\Intel Management Engine Components\iCLS\
+					C:\Windows\system32
+					C:\Windows
+					C:\Windows\System32\Wbem
+					C:\Windows\System32\WindowsPowerShell\v1.0\
+					C:\Windows\System32\OpenSSH\
+					C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+					C:\Program Files\Intel\WiFi\bin\
+					C:\Program Files\Common Files\Intel\WirelessCommon\
+					C:\Program Files (x86)\Intel\Intel Management Engine Components\DAL
+					C:\Program Files\Intel\Intel Management Engine Components\DAL
+					C:\Program Files (x86)\Intel\Intel Management Engine Components\IPT
+					C:\Program Files\Intel\Intel Management Engine Components\IPT
+					C:\WINDOWS\system32
+					C:\WINDOWS
+					C:\WINDOWS\System32\Wbem
+					C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+					C:\WINDOWS\System32\OpenSSH\
+					C:\Program Files\Microsoft\Web Platform Installer\
+					C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+					D:\SOFTWARE\command
+					C:\Program Files\nodejs\
+					C:\ProgramData\chocolatey\bin
+					C:\Program Files\Java\jdk1.8.0_241\bin
+					C:\Program Files (x86)\Yarn\bin\
+					C:\Program Files\Git\cmd
+					PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW
+					PROCESSOR_ARCHITECTURE	AMD64
+					PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+					PROCESSOR_LEVEL	6
+					PROCESSOR_REVISION	9e0a
+					PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules
+					C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+					PT7HOME	D:\SOFTWARE\INSTALADOS\Cisco Packet Tracer 7.3.0
+					QT_DEVICE_PIXEL_RATIO	auto
+					RUBYOPT	-Eutf-8
+					TEMP	C:\WINDOWS\TEMP
+					TMP	C:\WINDOWS\TEMP
+					USERNAME	SYSTEM
+					VBOX_MSI_INSTALL_PATH	D:\SOFTWARE\VIRTUALBOX\
+					windir	C:\WINDOWS
+		Battery
+			AC Line	Online
+			Battery Charge %	100 %
+			Battery State	High
+			Remaining Battery Time	Unknown
+		Power Profile
+			Active power scheme	Equilibrado
+			Hibernation	Enabled
+			Turn Off Monitor after: (On AC Power)	Never
+			Turn Off Monitor after: (On Battery Power)	Never
+			Turn Off Hard Disk after: (On AC Power)	20 min
+			Turn Off Hard Disk after: (On Battery Power)	10 min
+			Suspend after: (On AC Power)	Never
+			Suspend after: (On Battery Power)	Never
+			Screen saver	Disabled
+		Uptime
+				Current Session
+					Current Time	20/11/2020 15:03:45
+					Current Uptime	100.543 sec (1 d, 03 h, 55 m, 43 s)
+					Last Boot Time	19/11/2020 11:08:02
+		Services
+			Running	Acceso a datos de usuarios_176df3f
+			Running	Administrador de conexiones de acceso remoto
+			Running	Administrador de conexiones de Windows
+			Running	Administrador de credenciales
+			Running	Administrador de cuentas de seguridad
+			Running	Administrador de cuentas web
+			Running	Administrador de identidad de redes de mismo nivel
+			Running	Administrador de pagos y NFC/SE
+			Running	Administrador de sesión local
+			Running	Administrador de usuarios
+			Running	Adquisición de imágenes de Windows (WIA)
+			Running	Agente de conexión de red
+			Running	Agente de directiva IPsec
+			Running	Agente de eventos de tiempo
+			Running	Agente de eventos del sistema
+			Running	Agente de supervisión en tiempo de ejecución de Protección del sistema
+			Running	Aislamiento de claves CNG
+			Running	Almacenamiento de datos de usuarios_176df3f
+			Running	Aplicación auxiliar de NetBIOS sobre TCP/IP
+			Running	Aplicación auxiliar IP
+			Running	Asignador de extremos de RPC
+			Running	Audio de Windows
+			Running	Centro de seguridad
+			Running	Cliente de seguimiento de vínculos distribuidos
+			Running	Cliente DHCP
+			Running	Cliente DNS
+			Running	Cliente web
+			Running	Cola de impresión
+			Running	Compilador de extremo de audio de Windows
+			Running	Configuración automática de dispositivos conectados a la red
+			Running	Configuración automática de WLAN
+			Running	Contenedor de Microsoft Passport
+			Running	CoreMessaging
+			Running	Datos de contactos_176df3f
+			Running	Detección de hardware shell
+			Running	Detección SSDP
+			Running	DevicesFlow_176df3f
+			Running	Dispositivo host de UPnP
+			Running	Energía
+			Running	Estación de trabajo
+			Running	Experiencia de calidad de audio y vídeo de Windows (qWave)
+			Running	Experiencias del usuario y telemetría asociadas
+			Running	FileSyncHelper
+			Running	Firewall de Windows Defender
+			Running	Host de proveedor de detección de función
+			Running	Host de sistema de diagnóstico
+			Running	Host del servicio de diagnóstico
+			Running	Información de la aplicación
+			Running	Iniciador de procesos de servidor DCOM
+			Running	Instrumental de administración de Windows
+			Running	Intel Content Protection HDCP Service
+			Running	Intel Content Protection HECI Service
+			Running	Intel Dynamic Application Loader Host Interface Service
+			Running	Intel Graphics Command Center Service
+			Running	Intel HD Graphics Control Panel Service
+			Running	Intel Management and Security Application Local Management Service
+			Running	Intel PROSet/Wireless Event Log
+			Running	Intel PROSet/Wireless Registry Service
+			Running	Intel PROSet/Wireless Zero Configuration Service
+			Running	Intel Rapid Storage Technology
+			Running	Llamada a procedimiento remoto (RPC)
+			Running	Micro Star SCM
+			Running	Microsoft Passport
+			Running	Mostrar el servicio de directivas
+			Running	Motor de filtrado de base
+			Running	Módulos de creación de claves de IPsec para IKE y AuthIP
+			Running	Nahimic service
+			Running	Norton Security
+			Running	Norton WSC Service
+			Running	NVIDIA Display Container LS
+			Running	NVIDIA LocalSystem Container
+			Running	Optimización de distribución
+			Running	Plug and Play
+			Running	Programador de tareas
+			Running	Propagación de certificados
+			Running	Publicación de recurso de detección de función
+			Running	Realtek Audio Universal Service
+			Running	Reconoc. ubicación de red
+			Running	Registrador de configuración de Windows Connect Now
+			Running	Registro de eventos de Windows
+			Running	Servicio Administrador de funcionalidad de acceso
+			Running	Servicio Asistente para la compatibilidad de programas
+			Running	Servicio AVCTP
+			Running	Servicio biométrico de Windows
+			Running	Servicio Bonjour
+			Running	Servicio de administración de radio
+			Running	Servicio de administrador de licencias de Windows
+			Running	Servicio de almacenamiento
+			Running	Servicio de asociación de dispositivos
+			Running	Servicio de caché de fuentes de Windows
+			Running	Servicio de compatibilidad con Bluetooth
+			Running	Servicio de detección automática de proxy web WinHTTP
+			Running	Servicio de directivas de diagnóstico
+			Running	Servicio de geolocalización
+			Running	Servicio de implementación de AppX (AppXSVC)
+			Running	Servicio de infraestructura de tareas en segundo plano
+			Running	Servicio de instalación de Microsoft Store
+			Running	Servicio de lista de redes
+			Running	Servicio de mejora de visualización
+			Running	Servicio de notificación de eventos de sistema
+			Running	Servicio de Panel de escritura a mano y teclado táctil
+			Running	Servicio de perfil de usuario
+			Running	Servicio de plataforma de dispositivos conectados
+			Running	Servicio de protocolo de túnel de sockets seguros
+			Running	Servicio de puerta de enlace de audio de Bluetooth
+			Running	Servicio de repositorio de estado
+			Running	Servicio de soporte técnico de usuario de Bluetooth_176df3f
+			Running	Servicio de uso compartido de datos
+			Running	Servicio de uso compartido de red del Reproductor de Windows Media
+			Running	Servicio de usuario de notificaciones de inserción de Windows_176df3f
+			Running	Servicio de usuario de plataforma de dispositivos conectados_176df3f
+			Running	Servicio de usuario del portapapeles_176df3f
+			Running	Servicio del sistema de notificaciones de inserción de Windows
+			Running	Servicio FrameServer de la Cámara de Windows
+			Running	Servicio Interfaz de almacenamiento en red
+			Running	Servicio Orquestador de actualizaciones
+			Running	Servicio Seguridad de Windows
+			Running	Servicio telefónico
+			Running	Servicios de cifrado
+			Running	Servidor
+			Running	Sincronizar host_176df3f
+			Running	Sistema de eventos COM+
+			Running	SysMain
+			Running	Telefonía
+			Running	Temas
+			Running	Uso de datos
+			Running	Windows Presentation Foundation Font Cache 3.0.0.0
+			Running	Windows Search
+			Stopped	Actualizador de zona horaria automática
+			Stopped	Adaptador de rendimiento de WMI
+			Stopped	Administración de autenticación de Xbox Live
+			Stopped	Administración de capas de almacenamiento
+			Stopped	Administración remota de Windows (WS-Management)
+			Stopped	Administrador de conexiones automáticas de acceso remoto
+			Stopped	Administrador de configuración de dispositivos
+			Stopped	Administrador de mapas descargados
+			Stopped	Agent Activation Runtime_176df3f
+			Stopped	Agente de detección en segundo plano de DevQuery
+			Stopped	Agrupación de red del mismo nivel
+			Stopped	Aplicación del sistema COM+
+			Stopped	Asignador de detección de topologías de nivel de vínculo
+			Stopped	Asistente para la conectividad de red
+			Stopped	Autenticación natural
+			Stopped	Ayuda del Panel de control de Informes de problemas y soluciones
+			Stopped	Ayudante para el inicio de sesión de cuenta Microsoft
+			Stopped	Captura de SNMP
+			Stopped	CaptureService_176df3f
+			Stopped	Carpetas de trabajo
+			Stopped	Cliente de directiva de grupo
+			Stopped	Comprobador puntual
+			Stopped	Conexiones de red
+			Stopped	Conexión compartida a Internet (ICS)
+			Stopped	Configuración automática de redes cableadas
+			Stopped	Configuración automática de WWAN
+			Stopped	Configuración de Escritorio remoto
+			Stopped	ConsentUX_176df3f
+			Stopped	Control parental
+			Stopped	Coordinador de transacciones distribuidas
+			Stopped	Copias de seguridad de Windows
+			Stopped	CredentialEnrollmentManagerUserSvc_176df3f
+			Stopped	DeviceAssociationBroker_176df3f
+			Stopped	DevicePicker_176df3f
+			Stopped	Diagnostic Execution Service
+			Stopped	Directiva de extracción de tarjetas inteligentes
+			Stopped	Disco virtual
+			Stopped	DLL de host del Contador de rendimiento
+			Stopped	Enrutamiento y acceso remoto
+			Stopped	Eventos de adquisición de imágenes estáticas
+			Stopped	Extensiones y notificaciones de impresora
+			Stopped	Fax
+			Stopped	Google Chrome Elevation Service
+			Stopped	GraphicsPerfSvc
+			Stopped	Hora de la red de telefonía móvil
+			Stopped	Hora de Windows
+			Stopped	Identidad de aplicación
+			Stopped	Inicio de sesión secundario
+			Stopped	Instalador de ActiveX (AxInstSV)
+			Stopped	Instalador de módulos de Windows
+			Stopped	Instantáneas de volumen
+			Stopped	Intel Capability Licensing Service TCP IP Interface
+			Stopped	Intel Optane Memory Service
+			Stopped	Intel TPM Provisioning Service
+			Stopped	Interfaz de servicio invitado de Hyper-V
+			Stopped	KTMRM para DTC (Coordinador de transacciones distribuidas)
+			Stopped	MessagingService_176df3f
+			Stopped	Microsoft Edge Elevation Service
+			Stopped	Microsoft Update Health Service
+			Stopped	Modo incrustado
+			Stopped	Mozilla Maintenance Service
+			Stopped	Net Logon
+			Stopped	NVIDIA FrameView SDK service
+			Stopped	OneDrive Updater Service
+			Stopped	OpenSSH Authentication Agent
+			Stopped	Optimizar unidades
+			Stopped	Partida guardada en Xbox Live
+			Stopped	Preparación de aplicaciones
+			Stopped	PrintWorkflow_176df3f
+			Stopped	Protección de software
+			Stopped	Protocolo de autenticación extensible
+			Stopped	Protocolo de resolución de nombres de mismo nivel
+			Stopped	Proveedor de instantáneas de software de Microsoft
+			Stopped	Recopilador de eventos de Windows
+			Stopped	Redirector de puerto en modo usuario de Servicios de Escritorio remoto
+			Stopped	Registro remoto
+			Stopped	Registros y alertas de rendimiento
+			Stopped	Servicio Cifrado de unidad BitLocker
+			Stopped	Servicio de Actualización de Microsoft Edge (edgeupdate)
+			Stopped	Servicio de Actualización de Microsoft Edge (edgeupdatem)
+			Stopped	Servicio de administración de aplicaciones de empresa
+			Stopped	Servicio de administración de Windows
+			Stopped	Servicio de administrador de conexiones con servicios Wi-Fi Direct
+			Stopped	Servicio de Antivirus de Windows Defender
+			Stopped	Servicio de asistente para perfil local
+			Stopped	Servicio de cierre de invitado de Hyper-V
+			Stopped	Servicio de configuración de red
+			Stopped	Servicio de configuración de traslación de IP
+			Stopped	Servicio de datos del sensor
+			Stopped	Servicio de datos espacial
+			Stopped	Servicio de dispositivo de interfaz humana
+			Stopped	Servicio de enrutador de AllJoyn
+			Stopped	Servicio de enrutamiento de mensajes de inserción del Protocolo de aplicación inalámbrica (WAP) de administración de dispositivos
+			Stopped	Servicio de enumeración de dispositivos de tarjeta inteligente
+			Stopped	Servicio de experiencia de idioma
+			Stopped	Servicio de Google Update (gupdate)
+			Stopped	Servicio de Google Update (gupdatem)
+			Stopped	Servicio de historial de archivos
+			Stopped	Servicio de host HV
+			Stopped	Servicio de inscripción de administración de dispositivos
+			Stopped	Servicio de inspección de red de Antivirus de Windows Defender
+			Stopped	Servicio de instalación de dispositivos
+			Stopped	Servicio de intercambio de datos de Hyper-V
+			Stopped	Servicio de latido de Hyper-V
+			Stopped	Servicio de licencia de cliente (ClipSVC)
+			Stopped	Servicio de percepción de Windows
+			Stopped	Servicio de prueba comercial
+			Stopped	Servicio de publicación de nombres de equipo PNRP
+			Stopped	Servicio de puerta de enlace de nivel de aplicación
+			Stopped	Servicio de red de Xbox Live
+			Stopped	Servicio de sensores
+			Stopped	Servicio de simulación de percepción de Windows
+			Stopped	Servicio de sincronización de hora de Hyper-V
+			Stopped	Servicio de solución de problemas recomendado
+			Stopped	Servicio de supervisión de sensores
+			Stopped	Servicio de transferencia inteligente en segundo plano (BITS)
+			Stopped	Servicio de uso compartido de puertos Net.Tcp
+			Stopped	Servicio de usuario de difusión y GameDVR_176df3f
+			Stopped	Servicio de virtualización de Escritorio remoto de Hyper-V
+			Stopped	Servicio de Windows Insider
+			Stopped	Servicio de zona con cobertura inalámbrica móvil de Windows
+			Stopped	Servicio del iniciador iSCSI de Microsoft
+			Stopped	Servicio del módulo de copia de seguridad a nivel de bloque
+			Stopped	Servicio enrutador de SMS de Microsoft Windows.
+			Stopped	Servicio enumerador de dispositivos portátiles
+			Stopped	Servicio host de proveedor de cifrado de Windows
+			Stopped	Servicio Informe de errores de Windows
+			Stopped	Servicio PowerShell Direct de Hyper-V
+			Stopped	Servicio PushToInstall de Windows
+			Stopped	Servicio Recopilador estándar del concentrador de diagnósticos de Microsoft
+			Stopped	Servicio Volumetric Audio Compositor
+			Stopped	Servicios de Escritorio remoto
+			Stopped	Shared PC Account Manager
+			Stopped	Sistema de cifrado de archivos (EFS)
+			Stopped	SMP de Espacios de almacenamiento de Microsoft
+			Stopped	Solicitante de instantáneas de volumen de Hyper-V
+			Stopped	Tarjeta inteligente
+			Stopped	Ubicador de llamada a procedimiento remoto (RPC)
+			Stopped	VirtualBox system service
+			Stopped	WalletService
+			Stopped	wampapache
+			Stopped	wampmysqld
+			Stopped	WarpJITSvc
+			Stopped	Windows Installer
+			Stopped	Windows Mixed Reality OpenXR Service
+			Stopped	Windows Update
+			Stopped	Windows Update Medic Service
+			Stopped	Wireless PAN DHCP Server
+			Stopped	Xbox Accessory Management Service
+		TimeZone
+			TimeZone	GMT +1:00 Hours
+			Language	Español (España, internacional)
+			Location	España
+			Format	Español (España, internacional)
+			Currency	€
+			Date Format	dd/MM/yyyy
+			Time Format	H:mm:ss
+		Scheduler
+			20/11/2020 15:42;	MicrosoftEdgeUpdateTaskMachineUA
+			20/11/2020 15:44;	GoogleUpdateTaskMachineUA
+			20/11/2020 16:00;	Opera scheduled Autoupdate 1584088114
+			20/11/2020 18:13;	Opera scheduled assistant Autoupdate 1584088118
+			20/11/2020 18:26;	OneDrive Per-Machine Standalone Update Task
+			20/11/2020 21:44;	GoogleUpdateTaskMachineCore
+			21/11/2020 6:00;	MSI_Help_Desk_Agent
+			21/11/2020 8:12;	MicrosoftEdgeUpdateTaskMachineCore
+			21/11/2020 9:00;	Dragon_Center_updater
+			HPEA3JOBS
+			MSISCMTsk
+			MSI_Dragon Center
+		Hotfixes
+				Installed
+						13/11/2020  Intel - SoftwareComponent - 1.38.2020.805
+							Intel SoftwareComponent driver update released in August 2020
+						13/11/2020  Intel - SoftwareComponent - 1.61.251.0
+							Intel SoftwareComponent driver update released in April 2020
+						13/11/2020  Herramienta de eliminación de software malintencionado de Windows x64, v5.84 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						13/11/2020  2020-11 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4580980)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						13/11/2020  Intel - System - 2021.14.0.1615
+							Intel System driver update released in May 2020
+						13/11/2020  Realtek - SoftwareComponent - 11.0.6000.228
+							Realtek SoftwareComponent driver update released in August 2020
+						13/11/2020  Intel Corporation - System - 30.100.2020.7
+							Intel Corporation System driver update released in May 2020
+						13/11/2020  Realtek - SoftwareComponent - 1.0.0.289
+							Realtek SoftwareComponent driver update released in August 2020
+						13/11/2020  Realtek - SoftwareComponent - 11.0.6000.809
+							Realtek SoftwareComponent driver update released in August 2020
+						13/11/2020  2020-11 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4586786)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						29/10/2020  Intel Corporation - Display - 27.20.100.8681
+							Intel Corporation Display driver update released in September
+							2020
+						17/10/2020  2020-10 Actualización de seguridad de Adobe Flash Player para Windows 10 Version 1909 para x64 sistemas basados en (KB4580325)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						17/10/2020  2020-10 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4578974)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						17/10/2020  2020-10 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4577671)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						02/10/2020  2020-09 Actualización de Windows 10 Version 1909 para x64 sistemas basados en (KB4023057)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						28/09/2020  A-Volute - SoftwareComponent - 1.8.4.0
+							A-Volute SoftwareComponent driver update released in July 2020
+						14/09/2020  2020-09 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4576484)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						14/09/2020  Herramienta de eliminación de software malintencionado de Windows x64, v5.83 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						14/09/2020  2020-09 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4574727)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						16/08/2020  Intel Corporation - Display - 27.20.100.7990
+							Intel Corporation Display driver update released in June 2020
+						16/08/2020  2020-08 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4569751)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						16/08/2020  2020-08 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4565351)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						12/08/2020  2020-07 Vista previa de actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4562900)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						12/08/2020  2020-01 Actualización de Windows 10 Version 1909 para x64 sistemas basados en (KB4497165)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						03/08/2020  A-Volute - SoftwareComponent - 1.8.2.0
+							A-Volute SoftwareComponent driver update released in June 2020
+						19/07/2020  A-Volute - SoftwareComponent - 1.8.1.0
+							A-Volute SoftwareComponent driver update released in May 2020
+						19/07/2020  2020-07 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1909 para x64 (KB4565633)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						19/07/2020  2020-07 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4565483)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						12/06/2020  2020-06 Actualización de seguridad de Adobe Flash Player para Windows 10 Version 1909 para x64 sistemas basados en (KB4561600)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						12/06/2020  2020-06 Actualización acumulativa para Windows 10 Version 1909 para sistemas basados en x64 (KB4560960)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						22/05/2020  2020-05 Microsoft Edge Update de Windows 10 Version 1903 para sistemas basados en x64 (KB4559309)
+							Esta actualización ofrece las últimas actualizaciones de funciones
+							y calidad de Microsoft Edge.
+						22/05/2020  Actualización de características a Windows 10, versión 1909
+							Instala la actualización más reciente de Windows 10: Windows
+							10, versión 1909.
+						19/05/2020  2020-05 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1903 para x64 (KB4552931)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						19/05/2020  Herramienta de eliminación de software malintencionado de Windows x64, v5.82 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						19/05/2020  2020-05 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4556799)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						15/05/2020  Nahimic - MEDIA - 8.51.48.758
+							Nahimic MEDIA driver update released in January 2020
+						15/05/2020  A-Volute - Extension - 1.1.32.62690
+							A-Volute Extension driver update released in February 2020
+						30/04/2020  SAMSUNG Electronics Co., Ltd.  - Modem - 2.16.12.0
+							SAMSUNG Electronics Co., Ltd. Modem driver update released in
+							August 2019
+						21/04/2020  2020-02 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1903 para x64 (KB4537572)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						21/04/2020  2020-04 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4549951)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						21/04/2020  HP - Printers - Fax - HP Officejet 4630 series
+							HP Printers software update released in April, 2013
+						21/04/2020  SAMSUNG Electronics Co., Ltd.  - USB - 2.16.12.0
+							SAMSUNG Electronics Co., Ltd. USB driver update released in August
+							2019
+						23/03/2020  2020-03 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4551762)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						13/03/2020  Herramienta de eliminación de software malintencionado de Windows x64, marzo de 2020 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						13/03/2020  2020-03 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4540673)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						05/03/2020  Intel Corporation - Bluetooth - 21.60.0.4
+							Intel Corporation Bluetooth driver update released in November
+							2019
+						23/02/2020  2020-02 Actualización de seguridad de Adobe Flash Player para Windows 10 Version 1903 para x64 sistemas basados en (KB4537759)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						23/02/2020  2020-02 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1903 para x64 (KB4534132)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						23/02/2020  Herramienta de eliminación de software malintencionado de Windows x64, febrero de 2020 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						23/02/2020  2020-02 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4532693)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						22/01/2020  A-Volute - SoftwareComponent - 1.6.3.0
+							A-Volute SoftwareComponent driver update released in November
+							2019
+						22/01/2020  Herramienta de eliminación de software malintencionado de Windows x64, enero de 2020 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						22/01/2020  2020-01 Actualización acumulativa de .NET Framework 3.5 y 4.8 para Windows 10 Version 1903 para x64 (KB4532938)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						22/01/2020  2020-01 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4528760)
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						13/01/2020  Western Digital Technologies - WDC_SAM - 11/30/2017 12:00:00 AM - 1.2.0.0
+							Western Digital Technologies WDC_SAM driver update released in
+							November 2017
+						09/01/2020  HP - Printers - HP Officejet 4630 series
+							HP Printers software update released in April, 2013
+						09/01/2020  A-Volute - SoftwareComponent - 1.6.1.0
+							A-Volute SoftwareComponent driver update released in October
+							2019
+						09/01/2020  Realtek - SoftwareComponent - 1/22/2019 12:00:00 AM - 11.0.6000.168
+							Realtek SoftwareComponent driver update released in January 2019
+						09/01/2020  Realtek - SoftwareComponent - 1/17/2019 12:00:00 AM - 11.0.6000.669
+							Realtek SoftwareComponent driver update released in January 2019
+						09/01/2020  NVIDIA - Display - 26.21.14.3184
+							NVIDIA Display driver update released in August 2019
+						09/01/2020  9PLFNLNT3G5G-AppUp.IntelGraphicsExperience
+							9PLFNLNT3G5G-1152921505688994855
+						09/01/2020  A-Volute - Extension - 12/18/2018 12:00:00 AM - 1.1.11.55347
+							A-Volute Extension driver update released in December 2018
+						09/01/2020  Intel Corporation - Display - 26.20.100.7262
+							Intel Corporation Display driver update released in September
+							2019
+						09/01/2020  Realtek - SoftwareComponent - 1/21/2019 12:00:00 AM - 1.0.0.149
+							Realtek SoftwareComponent driver update released in January 2019
+						04/01/2020  Herramienta de eliminación de software malintencionado de Windows x64, diciembre de 2019 (KB890830)
+							Tras su descarga, esta herramienta se ejecuta una vez para comprobar
+							si su equipo está infectado por cierto software malintencionado
+							muy frecuente (incluido Blaster, Sasser y Mydoom) y ayuda a eliminar
+							todas las infecciones que se detecten. Si se detecta una infección,
+							la herramienta mostrará un informe de estado la próxima vez que
+							arranque el equipo. Cada mes aparecerá una nueva versión de la
+							herramienta. Si desea ejecutarla en el equipo de forma manual,
+							puede descargar una copia del Centro de descarga Microsoft o
+							ejecutar una versión en línea desde microsoft.com. Esta herramienta
+							no es un sustituto de un producto antivirus. Para proteger su
+							PC, debería usar un producto antivirus.
+						04/01/2020  2019-12 Cumulative Update for .NET Framework 3.5 and 4.8 for Windows 10 Version 1903 for x64 (KB4533002)
+							Install this update to resolve issues in Windows. For a complete
+							listing of the issues that are included in this update, see the
+							associated Microsoft Knowledge Base article for more information.
+							After you install this item, you may have to restart your computer.
+						04/01/2020  2019-09 Actualización de seguridad de Adobe Flash Player para Windows 10 Version 1903 para x64 sistemas basados en (KB4516115)
+							Se ha detectado un problema de seguridad en un producto de software
+							de Microsoft que podría affectar a su equipo. Puede contribuir
+							a mejorar la protección del sistema con esta actualización de
+							Microsoft. Para obtener una lista completa de los problemas incluidos
+							en esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado. Después de instalar esta actualización, es posible
+							que tenga que reiniciar el sistema.
+						26/12/2019  Actualización de características a Windows 10, versión 1903
+							Instala la actualización más reciente de Windows 10: Windows
+							10, versión 1903.
+				Not Installed
+						08/06/2020  9WZDNCRFHWCP-Microsoft.MicrosoftMahjong
+							Installation Status	Failed
+							9WZDNCRFHWCP-1152921505690267291
+						21/04/2020  2020-04 Actualización acumulativa para Windows 10 Version 1903 para sistemas basados en x64 (KB4549951)
+							Installation Status	Canceled
+							Instale esta actualización para resolver problemas en Windows.
+							Para obtener una lista completa de los problemas incluidos en
+							esta actualización, consulte el artículo de Microsoft Knowledge
+							Base asociado para obtener más información. Después de instalarla,
+							es posible que deba reiniciar el equipo.
+						23/02/2020  ApplicationSet-CFQ7TTC0K56C-Microsoft.Office.Desktop
+							Installation Status	Failed
+							CFQ7TTC0K56C-1152921505689355522
+						01/02/2020  ApplicationSet-CFQ7TTC0K56C-Microsoft.Office.Desktop
+							Installation Status	Failed
+							CFQ7TTC0K56C-1152921505689355522
+		System Folders
+			Application Data	C:\ProgramData
+			Cookies	C:\Users\piter\AppData\Local\Microsoft\Windows\INetCookies
+			Desktop	C:\Users\piter\OneDrive\Escritorio
+			Documents	C:\Users\Public\Documents
+			Fonts	C:\WINDOWS\Fonts
+			Global Favorites	C:\Users\piter\Favorites
+			Internet History	C:\Users\piter\AppData\Local\Microsoft\Windows\History
+			Local Application Data	C:\Users\piter\AppData\Local
+			Music	C:\Users\Public\Music
+			Path for burning CD	C:\Users\piter\AppData\Local\Microsoft\Windows\Burn\Burn
+			Physical Desktop	C:\Users\piter\OneDrive\Escritorio
+			Pictures	C:\Users\Public\Pictures
+			Program Files	C:\Program Files
+			Public Desktop	C:\Users\Public\Desktop
+			Start Menu	C:\ProgramData\Microsoft\Windows\Start Menu
+			Start Menu Programs	C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+			Startup	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+			Templates	C:\ProgramData\Microsoft\Windows\Templates
+			Temporary Internet Files	C:\Users\piter\AppData\Local\Microsoft\Windows\INetCache
+			User Favorites	C:\Users\piter\Favorites
+			Videos	C:\Users\Public\Videos
+			Windows Directory	C:\WINDOWS
+			Windows/System	C:\WINDOWS\system32
+		Process List
+				ApplicationFrameHost.exe
+					Process ID	18084
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\ApplicationFrameHost.exe
+					Memory Usage	36 MB
+					Peak Memory Usage	45 MB
+				atmgr.exe
+					Process ID	10280
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\WebEx\WebEx\Meetings_01\atmgr.exe
+					Memory Usage	43 MB
+					Peak Memory Usage	78 MB
+				atmgr.exe
+					Process ID	5168
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\WebEx\WebEx\Meetings\atmgr.exe
+					Memory Usage	42 MB
+					Peak Memory Usage	77 MB
+				audiodg.exe
+					Process ID	19824
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\audiodg.exe
+					Memory Usage	18 MB
+					Peak Memory Usage	27 MB
+				Calculator.exe
+					Process ID	10120
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2009.4.0_x64__8wekyb3d8bbwe\Calculator.exe
+					Memory Usage	460 KB
+					Peak Memory Usage	69 MB
+				chrome.exe
+					Process ID	12324
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	251 MB
+					Peak Memory Usage	573 MB
+				chrome.exe
+					Process ID	8556
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	56 MB
+					Peak Memory Usage	73 MB
+				chrome.exe
+					Process ID	12488
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	43 MB
+					Peak Memory Usage	47 MB
+				chrome.exe
+					Process ID	1388
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	89 MB
+					Peak Memory Usage	103 MB
+				chrome.exe
+					Process ID	8268
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	55 MB
+					Peak Memory Usage	72 MB
+				chrome.exe
+					Process ID	7816
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	100 MB
+					Peak Memory Usage	145 MB
+				chrome.exe
+					Process ID	8648
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	145 MB
+					Peak Memory Usage	214 MB
+				chrome.exe
+					Process ID	14776
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	22 MB
+					Peak Memory Usage	22 MB
+				chrome.exe
+					Process ID	14940
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	19 MB
+					Peak Memory Usage	40 MB
+				chrome.exe
+					Process ID	8256
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	88 MB
+					Peak Memory Usage	147 MB
+				chrome.exe
+					Process ID	9628
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	96 MB
+					Peak Memory Usage	130 MB
+				chrome.exe
+					Process ID	18256
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	82 MB
+					Peak Memory Usage	112 MB
+				chrome.exe
+					Process ID	12152
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	32 MB
+					Peak Memory Usage	40 MB
+				chrome.exe
+					Process ID	7380
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	6.32 MB
+					Peak Memory Usage	6.65 MB
+				chrome.exe
+					Process ID	12156
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	58 MB
+					Peak Memory Usage	96 MB
+				chrome.exe
+					Process ID	12280
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	100 MB
+					Peak Memory Usage	166 MB
+				chrome.exe
+					Process ID	9192
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	307 MB
+					Peak Memory Usage	383 MB
+				chrome.exe
+					Process ID	4324
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	17 MB
+				chrome.exe
+					Process ID	20780
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	92 MB
+					Peak Memory Usage	130 MB
+				chrome.exe
+					Process ID	10492
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	77 MB
+					Peak Memory Usage	105 MB
+				chrome.exe
+					Process ID	19808
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	44 MB
+					Peak Memory Usage	47 MB
+				chrome.exe
+					Process ID	12640
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	45 MB
+					Peak Memory Usage	48 MB
+				chrome.exe
+					Process ID	10444
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	103 MB
+					Peak Memory Usage	137 MB
+				chrome.exe
+					Process ID	5604
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+					Memory Usage	63 MB
+					Peak Memory Usage	64 MB
+				ciscowebexstart.exe
+					Process ID	2996
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\WebEx\ciscowebexstart.exe
+					Memory Usage	17 MB
+					Peak Memory Usage	23 MB
+				cmd.exe
+					Process ID	22120
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\cmd.exe
+					Memory Usage	3.99 MB
+					Peak Memory Usage	4.10 MB
+				commsapps.exe
+					Process ID	13072
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.13228.41011.0_x64__8wekyb3d8bbwe\commsapps.exe
+					Memory Usage	59 MB
+					Peak Memory Usage	140 MB
+				conhost.exe
+					Process ID	12304
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\conhost.exe
+					Memory Usage	19 MB
+					Peak Memory Usage	19 MB
+				conhost.exe
+					Process ID	7212
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\conhost.exe
+					Memory Usage	1.05 MB
+					Peak Memory Usage	11 MB
+				conhost.exe
+					Process ID	3636
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\conhost.exe
+					Memory Usage	3.28 MB
+					Peak Memory Usage	11 MB
+				csrss.exe
+					Process ID	808
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\csrss.exe
+					Memory Usage	4.61 MB
+					Peak Memory Usage	5.66 MB
+				csrss.exe
+					Process ID	12736
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\csrss.exe
+					Memory Usage	5.79 MB
+					Peak Memory Usage	16 MB
+				ctfmon.exe
+					Process ID	4220
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\ctfmon.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	16 MB
+				dasHost.exe
+					Process ID	6308
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\dasHost.exe
+					Memory Usage	2.41 MB
+					Peak Memory Usage	4.27 MB
+				dasHost.exe
+					Process ID	5232
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\dasHost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	18 MB
+				dllhost.exe
+					Process ID	14236
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\dllhost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	21 MB
+				dllhost.exe
+					Process ID	1232
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\dllhost.exe
+					Memory Usage	9.16 MB
+					Peak Memory Usage	14 MB
+				Dragon Center.exe
+					Process ID	14476
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\MSI\Dragon Center\Dragon Center.exe
+					Memory Usage	28 MB
+					Peak Memory Usage	146 MB
+				dwm.exe
+					Process ID	11288
+					User	DWM-2
+					Domain	Window Manager
+					Path	C:\Windows\System32\dwm.exe
+					Memory Usage	119 MB
+					Peak Memory Usage	193 MB
+				EvtEng.exe
+					Process ID	3844
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Intel\WiFi\bin\EvtEng.exe
+					Memory Usage	10 MB
+					Peak Memory Usage	15 MB
+				explorer.exe
+					Process ID	17200
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\explorer.exe
+					Memory Usage	354 MB
+					Peak Memory Usage	774 MB
+				explorer.exe
+					Process ID	11840
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\explorer.exe
+					Memory Usage	155 MB
+					Peak Memory Usage	177 MB
+				FileCoAuth.exe
+					Process ID	18224
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft OneDrive\20.169.0823.0008\FileCoAuth.exe
+					Memory Usage	20 MB
+					Peak Memory Usage	22 MB
+				FileSyncHelper.exe
+					Process ID	16032
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files (x86)\Microsoft OneDrive\20.169.0823.0008\FileSyncHelper.exe
+					Memory Usage	9.12 MB
+					Peak Memory Usage	13 MB
+				fontdrvhost.exe
+					Process ID	604
+					User	UMFD-0
+					Domain	Font Driver Host
+					Path	C:\Windows\System32\fontdrvhost.exe
+					Memory Usage	1.67 MB
+					Peak Memory Usage	3.75 MB
+				fontdrvhost.exe
+					Process ID	15652
+					User	UMFD-2
+					Domain	Font Driver Host
+					Path	C:\Windows\System32\fontdrvhost.exe
+					Memory Usage	8.42 MB
+					Peak Memory Usage	9.78 MB
+				GoogleCrashHandler.exe
+					Process ID	10612
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files (x86)\Google\Update\1.3.36.32\GoogleCrashHandler.exe
+					Memory Usage	1.10 MB
+					Peak Memory Usage	7.20 MB
+				GoogleCrashHandler64.exe
+					Process ID	10964
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files (x86)\Google\Update\1.3.36.32\GoogleCrashHandler64.exe
+					Memory Usage	1.06 MB
+					Peak Memory Usage	6.85 MB
+				HxTsr.exe
+					Process ID	4528
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.13228.41011.0_x64__8wekyb3d8bbwe\HxTsr.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	45 MB
+				IAStorDataMgrSvc.exe
+					Process ID	16000
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Intel\Intel Rapid Storage Technology\IAStorDataMgrSvc.exe
+					Memory Usage	62 MB
+					Peak Memory Usage	79 MB
+				IAStorIcon.exe
+					Process ID	9524
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\Intel\Intel Rapid Storage Technology\IAStorIcon.exe
+					Memory Usage	32 MB
+					Peak Memory Usage	40 MB
+				igfxCUIService.exe
+					Process ID	1468
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxCUIService.exe
+					Memory Usage	5.43 MB
+					Peak Memory Usage	8.82 MB
+				igfxEM.exe
+					Process ID	7776
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxEM.exe
+					Memory Usage	23 MB
+					Peak Memory Usage	28 MB
+				IntelCpHDCPSvc.exe
+					Process ID	1604
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a086f01cc7be643a\IntelCpHDCPSvc.exe
+					Memory Usage	3.82 MB
+					Peak Memory Usage	7.27 MB
+				IntelCpHeciSvc.exe
+					Process ID	2004
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a086f01cc7be643a\IntelCpHeciSvc.exe
+					Memory Usage	3.67 MB
+					Peak Memory Usage	6.67 MB
+				jhi_service.exe
+					Process ID	16072
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_ffc75848a6342fdf\jhi_service.exe
+					Memory Usage	3.77 MB
+					Peak Memory Usage	6.37 MB
+				jusched.exe
+					Process ID	1020
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe
+					Memory Usage	6.79 MB
+					Peak Memory Usage	7.46 MB
+				LMS.exe
+					Process ID	16120
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files (x86)\Intel\Intel Management Engine Components\LMS\LMS.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	14 MB
+				LockApp.exe
+					Process ID	18272
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+					Memory Usage	45 MB
+					Peak Memory Usage	58 MB
+				lsass.exe
+					Process ID	1000
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\lsass.exe
+					Memory Usage	18 MB
+					Peak Memory Usage	20 MB
+				mDNSResponder.exe
+					Process ID	3084
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Bonjour\mDNSResponder.exe
+					Memory Usage	5.14 MB
+					Peak Memory Usage	6.94 MB
+				Memory Compression
+					Process ID	2624
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Memory Usage	500 MB
+					Peak Memory Usage	730 MB
+				Microsoft.Photos.exe
+					Process ID	21296
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2020.20090.1002.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe
+					Memory Usage	66 MB
+					Peak Memory Usage	96 MB
+				msedge.exe
+					Process ID	17848
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	36 MB
+					Peak Memory Usage	40 MB
+				msedge.exe
+					Process ID	13620
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	39 MB
+					Peak Memory Usage	43 MB
+				msedge.exe
+					Process ID	13516
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	55 MB
+					Peak Memory Usage	143 MB
+				msedge.exe
+					Process ID	14100
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	36 MB
+					Peak Memory Usage	42 MB
+				msedge.exe
+					Process ID	14172
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	21 MB
+					Peak Memory Usage	23 MB
+				msedge.exe
+					Process ID	7292
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	40 MB
+					Peak Memory Usage	44 MB
+				msedge.exe
+					Process ID	6772
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	39 MB
+					Peak Memory Usage	46 MB
+				msedge.exe
+					Process ID	1200
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	93 MB
+					Peak Memory Usage	131 MB
+				msedge.exe
+					Process ID	8508
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	36 MB
+					Peak Memory Usage	42 MB
+				msedge.exe
+					Process ID	816
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	135 MB
+					Peak Memory Usage	154 MB
+				msedge.exe
+					Process ID	14672
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	136 MB
+					Peak Memory Usage	429 MB
+				msedge.exe
+					Process ID	18848
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	39 MB
+					Peak Memory Usage	40 MB
+				msedge.exe
+					Process ID	7964
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+					Memory Usage	8.16 MB
+					Peak Memory Usage	9.09 MB
+				msinfo32.exe
+					Process ID	5396
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\msinfo32.exe
+					Memory Usage	17 MB
+					Peak Memory Usage	17 MB
+				MSIService.exe
+					Process ID	3104
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\SysWOW64\MSIService.exe
+					Memory Usage	8.68 MB
+					Peak Memory Usage	11 MB
+				NahimicService.exe
+					Process ID	3144
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\NahimicService.exe
+					Memory Usage	18 MB
+					Peak Memory Usage	23 MB
+				NahimicSvc32.exe
+					Process ID	10032
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SysWOW64\NahimicSvc32.exe
+					Memory Usage	6.97 MB
+					Peak Memory Usage	26 MB
+				NahimicSvc64.exe
+					Process ID	15156
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\NahimicSvc64.exe
+					Memory Usage	1.43 MB
+					Peak Memory Usage	19 MB
+				NortonSecurity.exe
+					Process ID	14872
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\Norton Security\Engine\22.20.5.39\NortonSecurity.exe
+					Memory Usage	48 MB
+					Peak Memory Usage	77 MB
+				NortonSecurity.exe
+					Process ID	6964
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Norton Security\Engine\22.20.5.39\NortonSecurity.exe
+					Memory Usage	126 MB
+					Peak Memory Usage	534 MB
+				nsWscSvc.exe
+					Process ID	4208
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Norton Security\Engine\22.20.5.39\nsWscSvc.exe
+					Memory Usage	6.57 MB
+					Peak Memory Usage	12 MB
+				nvcontainer.exe
+					Process ID	11632
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+					Memory Usage	36 MB
+					Peak Memory Usage	150 MB
+				nvcontainer.exe
+					Process ID	16780
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+					Memory Usage	23 MB
+					Peak Memory Usage	39 MB
+				nvcontainer.exe
+					Process ID	4120
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	40 MB
+				NVDisplay.Container.exe
+					Process ID	18068
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_323ec550858ed703\Display.NvContainer\NVDisplay.Container.exe
+					Memory Usage	38 MB
+					Peak Memory Usage	159 MB
+				NVDisplay.Container.exe
+					Process ID	2168
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_323ec550858ed703\Display.NvContainer\NVDisplay.Container.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	22 MB
+				NVIDIA Share.exe
+					Process ID	13376
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+					Memory Usage	31 MB
+					Peak Memory Usage	118 MB
+				NVIDIA Share.exe
+					Process ID	10196
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+					Memory Usage	66 MB
+					Peak Memory Usage	83 MB
+				NVIDIA Share.exe
+					Process ID	17692
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+					Memory Usage	50 MB
+					Peak Memory Usage	75 MB
+				NVIDIA Web Helper.exe
+					Process ID	16964
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe
+					Memory Usage	13 MB
+					Peak Memory Usage	64 MB
+				nvsphelper64.exe
+					Process ID	4964
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\NVIDIA Corporation\ShadowPlay\nvsphelper64.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	18 MB
+				OneApp.IGCC.WinService.exe
+					Process ID	4112
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_54b736e5be5b50b2\OneApp.IGCC.WinService.exe
+					Memory Usage	24 MB
+					Peak Memory Usage	34 MB
+				OneDrive.exe
+					Process ID	10356
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files (x86)\Microsoft OneDrive\OneDrive.exe
+					Memory Usage	75 MB
+					Peak Memory Usage	121 MB
+				opera.exe
+					Process ID	20500
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	22096
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20988
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	22516
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	38 MB
+					Peak Memory Usage	38 MB
+				opera.exe
+					Process ID	13896
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	912
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20900
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	12460
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	11472
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	19036
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	15716
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	13800
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	16636
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	6680
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	5824
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	9528
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	6628
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	16224
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	5792
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	6972
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20048
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20840
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	22488
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	16576
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	2068
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	9664
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	43 MB
+					Peak Memory Usage	43 MB
+				opera.exe
+					Process ID	18988
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	44 MB
+					Peak Memory Usage	44 MB
+				opera.exe
+					Process ID	9868
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	51 MB
+					Peak Memory Usage	51 MB
+				opera.exe
+					Process ID	15408
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	21 MB
+					Peak Memory Usage	21 MB
+				opera.exe
+					Process ID	11956
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	31 MB
+				opera.exe
+					Process ID	18016
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20920
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	51 MB
+					Peak Memory Usage	51 MB
+				opera.exe
+					Process ID	22272
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	140 MB
+					Peak Memory Usage	140 MB
+				opera.exe
+					Process ID	4156
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	13332
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	56 MB
+					Peak Memory Usage	62 MB
+				opera.exe
+					Process ID	20684
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	33 MB
+					Peak Memory Usage	33 MB
+				opera.exe
+					Process ID	21008
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	1932
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	43 MB
+					Peak Memory Usage	43 MB
+				opera.exe
+					Process ID	2476
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	8836
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	67 MB
+					Peak Memory Usage	67 MB
+				opera.exe
+					Process ID	9684
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	9548
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	8532
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	1432
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	13432
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	8260
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	20880
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	15412
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	1844
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	956
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	15044
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	22484
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	19664
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	91 MB
+					Peak Memory Usage	91 MB
+				opera.exe
+					Process ID	3416
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	12020
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera.exe
+					Process ID	13832
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	30 MB
+				opera_crashreporter.exe
+					Process ID	19180
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Users\piter\AppData\Local\Programs\Opera\72.0.3815.320\opera_crashreporter.exe
+					Memory Usage	9.20 MB
+					Peak Memory Usage	9.21 MB
+				PresentationFontCache.exe
+					Process ID	6788
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	21 MB
+				Registry
+					Process ID	144
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Memory Usage	120 MB
+					Peak Memory Usage	177 MB
+				RegSrvc.exe
+					Process ID	3120
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Common Files\Intel\WirelessCommon\RegSrvc.exe
+					Memory Usage	6.25 MB
+					Peak Memory Usage	9.63 MB
+				RtkAudUService64.exe
+					Process ID	9964
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RtkAudUService64.exe
+					Memory Usage	7.41 MB
+					Peak Memory Usage	8.29 MB
+				RtkAudUService64.exe
+					Process ID	4128
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\RtkAudUService64.exe
+					Memory Usage	7.96 MB
+					Peak Memory Usage	11 MB
+				RuntimeBroker.exe
+					Process ID	15768
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	29 MB
+					Peak Memory Usage	40 MB
+				RuntimeBroker.exe
+					Process ID	12572
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	29 MB
+					Peak Memory Usage	32 MB
+				RuntimeBroker.exe
+					Process ID	6376
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	44 MB
+					Peak Memory Usage	49 MB
+				RuntimeBroker.exe
+					Process ID	2384
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	27 MB
+					Peak Memory Usage	32 MB
+				RuntimeBroker.exe
+					Process ID	5308
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	5.89 MB
+					Peak Memory Usage	7.24 MB
+				RuntimeBroker.exe
+					Process ID	21092
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	39 MB
+					Peak Memory Usage	46 MB
+				RuntimeBroker.exe
+					Process ID	15012
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	23 MB
+					Peak Memory Usage	28 MB
+				RuntimeBroker.exe
+					Process ID	10256
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	31 MB
+				RuntimeBroker.exe
+					Process ID	11000
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\RuntimeBroker.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	19 MB
+				SDXHelperBgt.exe
+					Process ID	4388
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\Microsoft.Office.Desktop_16051.13328.20356.0_x86__8wekyb3d8bbwe\Office16\SDXHelperBgt.exe
+					Memory Usage	KB
+					Peak Memory Usage	13 MB
+				SearchFilterHost.exe
+					Process ID	21772
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\SearchFilterHost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	13 MB
+				SearchIndexer.exe
+					Process ID	9072
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\SearchIndexer.exe
+					Memory Usage	59 MB
+					Peak Memory Usage	76 MB
+				SearchProtocolHost.exe
+					Process ID	17348
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\SearchProtocolHost.exe
+					Memory Usage	20 MB
+					Peak Memory Usage	20 MB
+				SearchUI.exe
+					Process ID	7352
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+					Memory Usage	257 MB
+					Peak Memory Usage	276 MB
+				SecurityHealthService.exe
+					Process ID	11576
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\SecurityHealthService.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	14 MB
+				SecurityHealthSystray.exe
+					Process ID	10352
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\SecurityHealthSystray.exe
+					Memory Usage	8.11 MB
+					Peak Memory Usage	8.68 MB
+				services.exe
+					Process ID	988
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\services.exe
+					Memory Usage	8.50 MB
+					Peak Memory Usage	11 MB
+				SettingSyncHost.exe
+					Process ID	11560
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\SettingSyncHost.exe
+					Memory Usage	7.52 MB
+					Peak Memory Usage	50 MB
+				SgrmBroker.exe
+					Process ID	16240
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\SgrmBroker.exe
+					Memory Usage	5.10 MB
+					Peak Memory Usage	7.06 MB
+				ShellExperienceHost.exe
+					Process ID	5784
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+					Memory Usage	82 MB
+					Peak Memory Usage	87 MB
+				sihost.exe
+					Process ID	18236
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\sihost.exe
+					Memory Usage	39 MB
+					Peak Memory Usage	44 MB
+				smartscreen.exe
+					Process ID	10276
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\smartscreen.exe
+					Memory Usage	30 MB
+					Peak Memory Usage	38 MB
+				smss.exe
+					Process ID	532
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\smss.exe
+					Memory Usage	1.07 MB
+					Peak Memory Usage	1.25 MB
+				Speccy64.exe
+					Process ID	21164
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\Speccy\Speccy64.exe
+					Memory Usage	37 MB
+					Peak Memory Usage	38 MB
+				spoolsv.exe
+					Process ID	3652
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\spoolsv.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	17 MB
+				StartMenuExperienceHost.exe
+					Process ID	13156
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+					Memory Usage	73 MB
+					Peak Memory Usage	86 MB
+				svchost.exe
+					Process ID	3472
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	3784
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	13 MB
+					Peak Memory Usage	23 MB
+				svchost.exe
+					Process ID	3824
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.11 MB
+					Peak Memory Usage	8.22 MB
+				svchost.exe
+					Process ID	3896
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	20 MB
+					Peak Memory Usage	31 MB
+				svchost.exe
+					Process ID	3468
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	13 MB
+					Peak Memory Usage	16 MB
+				svchost.exe
+					Process ID	9488
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.66 MB
+					Peak Memory Usage	7.60 MB
+				svchost.exe
+					Process ID	3664
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.64 MB
+					Peak Memory Usage	7.75 MB
+				svchost.exe
+					Process ID	3668
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.09 MB
+					Peak Memory Usage	7.99 MB
+				svchost.exe
+					Process ID	10488
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.84 MB
+					Peak Memory Usage	7.44 MB
+				svchost.exe
+					Process ID	3644
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	27 MB
+					Peak Memory Usage	66 MB
+				svchost.exe
+					Process ID	3552
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	13 MB
+					Peak Memory Usage	16 MB
+				svchost.exe
+					Process ID	3568
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	14 MB
+				svchost.exe
+					Process ID	3944
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	46 MB
+					Peak Memory Usage	193 MB
+				svchost.exe
+					Process ID	4100
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	3.33 MB
+					Peak Memory Usage	5.64 MB
+				svchost.exe
+					Process ID	4136
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	3.27 MB
+					Peak Memory Usage	6.70 MB
+				svchost.exe
+					Process ID	4164
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.90 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	4172
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.07 MB
+					Peak Memory Usage	8.15 MB
+				svchost.exe
+					Process ID	4180
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	20 MB
+					Peak Memory Usage	23 MB
+				svchost.exe
+					Process ID	4244
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.18 MB
+					Peak Memory Usage	9.00 MB
+				svchost.exe
+					Process ID	4556
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	3.99 MB
+					Peak Memory Usage	7.47 MB
+				svchost.exe
+					Process ID	5224
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.36 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	5252
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	2.82 MB
+					Peak Memory Usage	5.50 MB
+				svchost.exe
+					Process ID	6040
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.88 MB
+					Peak Memory Usage	9.71 MB
+				svchost.exe
+					Process ID	8740
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.92 MB
+					Peak Memory Usage	5.93 MB
+				svchost.exe
+					Process ID	21540
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	3996
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.78 MB
+					Peak Memory Usage	9.16 MB
+				svchost.exe
+					Process ID	6460
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	4.81 MB
+					Peak Memory Usage	9.17 MB
+				svchost.exe
+					Process ID	7624
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.57 MB
+					Peak Memory Usage	9.11 MB
+				svchost.exe
+					Process ID	7704
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.77 MB
+					Peak Memory Usage	9.90 MB
+				svchost.exe
+					Process ID	1624
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	4.86 MB
+					Peak Memory Usage	7.80 MB
+				svchost.exe
+					Process ID	3204
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	21 MB
+				svchost.exe
+					Process ID	8628
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	19 MB
+					Peak Memory Usage	20 MB
+				svchost.exe
+					Process ID	12352
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	13 MB
+					Peak Memory Usage	21 MB
+				svchost.exe
+					Process ID	13812
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.19 MB
+					Peak Memory Usage	8.83 MB
+				svchost.exe
+					Process ID	14016
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	19 MB
+				svchost.exe
+					Process ID	14368
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.09 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	12376
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	14 MB
+				svchost.exe
+					Process ID	11732
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	20 MB
+				svchost.exe
+					Process ID	12124
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	38 MB
+				svchost.exe
+					Process ID	13700
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.17 MB
+					Peak Memory Usage	16 MB
+				svchost.exe
+					Process ID	15456
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	23 MB
+				svchost.exe
+					Process ID	15604
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.27 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	16308
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.63 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	14008
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.73 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	17708
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.98 MB
+					Peak Memory Usage	10 MB
+				svchost.exe
+					Process ID	16200
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	4.62 MB
+					Peak Memory Usage	5.46 MB
+				svchost.exe
+					Process ID	15760
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	26 MB
+					Peak Memory Usage	33 MB
+				svchost.exe
+					Process ID	11220
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	42 MB
+					Peak Memory Usage	45 MB
+				svchost.exe
+					Process ID	13088
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	24 MB
+					Peak Memory Usage	25 MB
+				svchost.exe
+					Process ID	12228
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.19 MB
+					Peak Memory Usage	7.84 MB
+				svchost.exe
+					Process ID	14004
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	20 MB
+					Peak Memory Usage	24 MB
+				svchost.exe
+					Process ID	6500
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.56 MB
+					Peak Memory Usage	10 MB
+				svchost.exe
+					Process ID	2496
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.78 MB
+					Peak Memory Usage	9.87 MB
+				svchost.exe
+					Process ID	620
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	2.14 MB
+					Peak Memory Usage	3.99 MB
+				svchost.exe
+					Process ID	1072
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	31 MB
+					Peak Memory Usage	32 MB
+				svchost.exe
+					Process ID	1128
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	18 MB
+					Peak Memory Usage	18 MB
+				svchost.exe
+					Process ID	1184
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.64 MB
+					Peak Memory Usage	8.93 MB
+				svchost.exe
+					Process ID	1496
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.27 MB
+					Peak Memory Usage	11 MB
+				svchost.exe
+					Process ID	1504
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.84 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	1612
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.14 MB
+					Peak Memory Usage	8.77 MB
+				svchost.exe
+					Process ID	1644
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	16 MB
+				svchost.exe
+					Process ID	1652
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.70 MB
+					Peak Memory Usage	7.92 MB
+				svchost.exe
+					Process ID	1764
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	21 MB
+				svchost.exe
+					Process ID	1828
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.66 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	1892
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	3.61 MB
+					Peak Memory Usage	5.84 MB
+				svchost.exe
+					Process ID	1996
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.69 MB
+					Peak Memory Usage	9.42 MB
+				svchost.exe
+					Process ID	2080
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.59 MB
+					Peak Memory Usage	9.95 MB
+				svchost.exe
+					Process ID	2088
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	10 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	2208
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.66 MB
+					Peak Memory Usage	8.02 MB
+				svchost.exe
+					Process ID	2224
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.81 MB
+					Peak Memory Usage	11 MB
+				svchost.exe
+					Process ID	15764
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.58 MB
+					Peak Memory Usage	8.75 MB
+				svchost.exe
+					Process ID	1440
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	17080
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.46 MB
+					Peak Memory Usage	9.66 MB
+				svchost.exe
+					Process ID	2916
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	12 MB
+				svchost.exe
+					Process ID	1492
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	8.71 MB
+					Peak Memory Usage	11 MB
+				svchost.exe
+					Process ID	2304
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	9.68 MB
+					Peak Memory Usage	10 MB
+				svchost.exe
+					Process ID	2392
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	4.30 MB
+					Peak Memory Usage	7.18 MB
+				svchost.exe
+					Process ID	2400
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	17 MB
+					Peak Memory Usage	29 MB
+				svchost.exe
+					Process ID	2420
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	3.36 MB
+					Peak Memory Usage	5.79 MB
+				svchost.exe
+					Process ID	21988
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.00 MB
+					Peak Memory Usage	5.00 MB
+				svchost.exe
+					Process ID	2428
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	25 MB
+				svchost.exe
+					Process ID	2456
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	2580
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	6.23 MB
+					Peak Memory Usage	7.80 MB
+				svchost.exe
+					Process ID	2588
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.73 MB
+					Peak Memory Usage	14 MB
+				svchost.exe
+					Process ID	2780
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.16 MB
+					Peak Memory Usage	9.14 MB
+				svchost.exe
+					Process ID	2852
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	17 MB
+					Peak Memory Usage	20 MB
+				svchost.exe
+					Process ID	2948
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	5.44 MB
+					Peak Memory Usage	7.91 MB
+				svchost.exe
+					Process ID	3032
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	13 MB
+				svchost.exe
+					Process ID	3168
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	4.39 MB
+					Peak Memory Usage	6.70 MB
+				svchost.exe
+					Process ID	3176
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	7.22 MB
+					Peak Memory Usage	10 MB
+				svchost.exe
+					Process ID	3408
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	19 MB
+				svchost.exe
+					Process ID	17504
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	14 MB
+					Peak Memory Usage	14 MB
+				svchost.exe
+					Process ID	13388
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\svchost.exe
+					Memory Usage	16 MB
+					Peak Memory Usage	16 MB
+				System
+					Process ID	4
+					Memory Usage	4.17 MB
+					Peak Memory Usage	14 MB
+				System Idle Process
+					Process ID	0
+				SystemSettings.exe
+					Process ID	3068
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+					Memory Usage	16 MB
+					Peak Memory Usage	135 MB
+				SystemSettingsBroker.exe
+					Process ID	8888
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\SystemSettingsBroker.exe
+					Memory Usage	31 MB
+					Peak Memory Usage	34 MB
+				taskhostw.exe
+					Process ID	11372
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\taskhostw.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	22 MB
+				unsecapp.exe
+					Process ID	5660
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wbem\unsecapp.exe
+					Memory Usage	6.39 MB
+					Peak Memory Usage	9.11 MB
+				UserOOBEBroker.exe
+					Process ID	17520
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\System32\oobe\UserOOBEBroker.exe
+					Memory Usage	7.34 MB
+					Peak Memory Usage	8.40 MB
+				Video.UI.exe
+					Process ID	19780
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.20082.10421.0_x64__8wekyb3d8bbwe\Video.UI.exe
+					Memory Usage	320 KB
+					Peak Memory Usage	63 MB
+				WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe
+					Process ID	7880
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Windows\SystemApps\InputApp_cw5n1h2txyewy\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe
+					Memory Usage	44 MB
+					Peak Memory Usage	52 MB
+				wininit.exe
+					Process ID	916
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wininit.exe
+					Memory Usage	4.50 MB
+					Peak Memory Usage	6.92 MB
+				winlogon.exe
+					Process ID	13352
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\winlogon.exe
+					Memory Usage	9.15 MB
+					Peak Memory Usage	18 MB
+				WINWORD.EXE
+					Process ID	7304
+					User	piter
+					Domain	PITERXUS-PORTA
+					Path	C:\Program Files\WindowsApps\Microsoft.Office.Desktop.Word_16051.13328.20356.0_x86__8wekyb3d8bbwe\Office16\WINWORD.EXE
+					Memory Usage	200 MB
+					Peak Memory Usage	227 MB
+				wlanext.exe
+					Process ID	3556
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wlanext.exe
+					Memory Usage	12 MB
+					Peak Memory Usage	17 MB
+				WmiPrvSE.exe
+					Process ID	5904
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wbem\WmiPrvSE.exe
+					Memory Usage	22 MB
+					Peak Memory Usage	24 MB
+				WmiPrvSE.exe
+					Process ID	7952
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wbem\WmiPrvSE.exe
+					Memory Usage	7.19 MB
+					Peak Memory Usage	8.55 MB
+				WmiPrvSE.exe
+					Process ID	4856
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\wbem\WmiPrvSE.exe
+					Memory Usage	11 MB
+					Peak Memory Usage	13 MB
+				wmpnetwk.exe
+					Process ID	14332
+					User	Servicio de red
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Windows Media Player\wmpnetwk.exe
+					Memory Usage	3.43 MB
+					Peak Memory Usage	27 MB
+				WUDFHost.exe
+					Process ID	500
+					User	SERVICIO LOCAL
+					Domain	NT AUTHORITY
+					Path	C:\Windows\System32\WUDFHost.exe
+					Memory Usage	3.35 MB
+					Peak Memory Usage	6.14 MB
+				ZeroConfigService.exe
+					Process ID	4188
+					User	SYSTEM
+					Domain	NT AUTHORITY
+					Path	C:\Program Files\Intel\WiFi\bin\ZeroConfigService.exe
+					Memory Usage	15 MB
+					Peak Memory Usage	19 MB
+		Security Options
+			Acceso a redes: canalizaciones con nombre accesibles anónimamente
+			Acceso a redes: modelo de seguridad y uso compartido para cuentas locales	Clásico: usuarios locales se autentican con credenciales propias
+			Acceso a redes: no permitir el almacenamiento de contraseñas y credenciales para la autenticación de la red	Deshabilitada
+			Acceso a redes: no permitir enumeraciones anónimas de cuentas SAM	Habilitada
+			Acceso a redes: no permitir enumeraciones anónimas de cuentas y recursos compartidos SAM	Deshabilitada
+			Acceso a redes: permitir la aplicación de los permisos Todos a los usuarios anónimos	Deshabilitada
+			Acceso a redes: recursos compartidos accesibles anónimamente	No está definido
+			Acceso a redes: restringir acceso anónimo a canalizaciones con nombre y recursos compartidos	Habilitada
+			Acceso a redes: rutas del Registro accesibles remotamente	System\CurrentControlSet\Control\ProductOptions,System\CurrentControlSet\Control\Server Applications,Software\Microsoft\Windows NT\CurrentVersion
+			Acceso a redes: rutas y subrutas del Registro accesibles remotamente	System\CurrentControlSet\Control\Print\Printers,System\CurrentControlSet\Services\Eventlog,Software\Microsoft\OLAP Server,Software\Microsoft\Windows NT\CurrentVersion\Print,Software\Microsoft\Windows NT\CurrentVersion\Windows,System\CurrentControlSet\Control\ContentIndex,System\CurrentControlSet\Control\Terminal Server,System\CurrentControlSet\Control\Terminal Server\UserConfig,System\CurrentControlSet\Control\Terminal Server\DefaultUserConfiguration,Software\Microsoft\Windows NT\CurrentVersion\Perflib,System\CurrentControlSet\Services\SysmonLog
+			Acceso de red: evitar que clientes con permiso realicen llamadas remotas a SAM
+			Acceso de red: permitir traducción SID/nombre anónima	Deshabilitada
+			Apagado: borrar el archivo de paginación de la memoria virtual	Deshabilitada
+			Apagado: permitir apagar el sistema sin tener que iniciar sesión	Habilitada
+			Auditoría de longitud mínima de contraseña	No está definido
+			Auditoría: apagar el sistema de inmediato si no se pueden registrar las auditorías de seguridad	Deshabilitada
+			Auditoría: auditar el acceso de objetos globales del sistema	Deshabilitada
+			Auditoría: auditar el uso del privilegio de copias de seguridad y restauración	Deshabilitada
+			Auditoría: forzar la configuración de subcategorías de la directiva de auditoría (Windows Vista o posterior) para invalidar la configuración de la categoría de directiva de auditoría	No está definido
+			Cliente de redes de Microsoft: enviar contraseña sin cifrar a servidores SMB de terceros	Deshabilitada
+			Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)	Habilitada
+			Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)	Deshabilitada
+			Configuración del sistema: subsistemas opcionales
+			Configuración del sistema: usar reglas de certificado en ejecutables de Windows para directivas de restricción de software	Deshabilitada
+			Consola de recuperación: permitir el inicio de sesión administrativo automático	No está definido
+			Consola de recuperación: permitir la copia de disquetes y el acceso a todas las unidades y carpetas	No está definido
+			Control de cuentas de usuario: cambiar al escritorio seguro cuando se pida confirmación de elevación	Habilitada
+			Control de cuentas de usuario: comportamiento de la petición de elevación para los administradores en Modo de aprobación de administrador	Pedir consentimiento para binarios que no son de Windows
+			Control de cuentas de usuario: comportamiento de la petición de elevación para los usuarios estándar	Pedir credenciales
+			Control de cuentas de usuario: detectar instalaciones de aplicaciones y pedir confirmación de elevación	Habilitada
+			Control de cuentas de usuario: ejecutar todos los administradores en Modo de aprobación de administrador	Habilitada
+			Control de cuentas de usuario: elevar solo aplicaciones UIAccess instaladas en ubicaciones seguras	Habilitada
+			Control de cuentas de usuario: elevar solo los archivos ejecutables firmados y validados	Deshabilitada
+			Control de cuentas de usuario: Modo de aprobación de administrador para la cuenta predefinida Administrador	No está definido
+			Control de cuentas de usuario: permitir que las aplicaciones UIAccess pidan confirmación de elevación sin usar el escritorio seguro	Deshabilitada
+			Control de cuentas de usuario: virtualizar los errores de escritura de archivo y de Registro en diferentes ubicaciones por usuario	Habilitada
+			Controlador de dominio: no permitir los cambios de contraseña de cuenta de equipo	No está definido
+			Controlador de dominio: permitir a los operadores de servidor programar tareas	No está definido
+			Controlador de dominio: requisitos de firma de servidor LDAP	No está definido
+			Controlador de dominio: requisitos del token de enlace de canal del servidor LDAP	No está definido
+			Controlador del dominio: permite conexiones de canal seguro vulnerables de Netlogon	No está definido
+			Criptografía de sistema: forzar la protección con claves seguras para las claves de usuario almacenadas en el equipo	No está definido
+			Criptografía de sistema: usar algoritmos que cumplan FIPS para cifrado, firma y operaciones hash	Deshabilitada
+			Cuentas: bloquear cuentas Microsoft	No está definido
+			Cuentas: cambiar el nombre de cuenta de invitado	Invitado
+			Cuentas: cambiar el nombre de la cuenta de administrador	Administrador
+			Cuentas: estado de la cuenta de administrador	Deshabilitada
+			Cuentas: estado de la cuenta de invitado	Deshabilitada
+			Cuentas: limitar el uso de cuentas locales con contraseña en blanco solo para iniciar sesión en la consola	Habilitada
+			DCOM: restricciones de acceso al equipo en sintaxis de Lenguaje de definición de descriptores de seguridad (SDDL)	No está definido
+			DCOM: restricciones de inicio de equipo en sintaxis de Lenguaje de definición de descriptores de seguridad (SDDL)	No está definido
+			Dispositivos: impedir que los usuarios instalen controladores de impresora	Deshabilitada
+			Dispositivos: permitir desacoplamiento sin tener que iniciar sesión	Habilitada
+			Dispositivos: permitir formatear y expulsar medios extraíbles	No está definido
+			Dispositivos: restringir el acceso a disquetes solo al usuario con sesión iniciada localmente	No está definido
+			Dispositivos: restringir el acceso al CD-ROM solo al usuario con sesión iniciada localmente	No está definido
+			Inicio de sesión interactivo: comportamiento de extracción de tarjeta inteligente	Ninguna acción
+			Inicio de sesión interactivo: límite de inactividad del equipo	No está definido
+			Inicio de sesión interactivo: mostrar información de usuario cuando se bloquee la sesión	No está definido
+			Inicio de sesión interactivo: No mostrar el nombre de usuario al iniciar sesión	No está definido
+			Inicio de sesión interactivo: No mostrar último inicio de sesión	Deshabilitada
+			Inicio de sesión interactivo: no requerir Ctrl+Alt+Supr	No está definido
+			Inicio de sesión interactivo: número de inicios de sesión anteriores que se almacenarán en caché (si el controlador de dominio no está disponible)	10 inicios de sesión
+			Inicio de sesión interactivo: pedir al usuario que cambie la contraseña antes de que expire	5 días
+			Inicio de sesión interactivo: requerir la autenticación del controlador de dominio para desbloquear la estación de trabajo	Deshabilitada
+			Inicio de sesión interactivo: requerir Windows Hello para empresas o tarjeta inteligente	Deshabilitada
+			Inicio de sesión interactivo: texto del mensaje para los usuarios que intentan iniciar una sesión
+			Inicio de sesión interactivo: título del mensaje para los usuarios que intentan iniciar una sesión
+			Inicio de sesión interactivo: umbral de bloqueo de cuenta del equipo	No está definido
+			Miembro de dominio: cifrar digitalmente datos de un canal seguro (cuando sea posible)	Habilitada
+			Miembro de dominio: cifrar o firmar digitalmente datos de un canal seguro (siempre)	Habilitada
+			Miembro de dominio: deshabilitar los cambios de contraseña de cuentas de equipo	Deshabilitada
+			Miembro de dominio: duración máxima de contraseña de cuenta de equipo	30 días
+			Miembro de dominio: firmar digitalmente datos de un canal seguro (cuando sea posible)	Habilitada
+			Miembro de dominio: requerir clave de sesión segura (Windows 2000 o posterior)	Habilitada
+			Objetos de sistema: reforzar los permisos predeterminados de los objetos internos del sistema (por ejemplo, vínculos simbólicos)	Habilitada
+			Objetos de sistema: requerir no distinguir mayúsculas de minúsculas para subsistemas que no sean de Windows	Habilitada
+			Seguridad de red: configurar tipos de cifrado permitidos para Kerberos	No está definido
+			Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión	Deshabilitada
+			Seguridad de red: nivel de autenticación de LAN Manager	No está definido
+			Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña	Habilitada
+			Seguridad de red: permitir que LocalSystem use la identidad del equipo para NTLM	No está definido
+			Seguridad de red: permitir retroceso a sesión NULL de LocalSystem	No está definido
+			Seguridad de red: permitir solicitudes de autenticación PKU2U a este equipo para usar identidades en Internet.
+
+	No está definido
+			Seguridad de red: requisitos de firma de cliente LDAP	Negociar firma
+			Seguridad de red: restringir NTLM: agregar excepciones de servidor en este dominio	No está definido
+			Seguridad de red: restringir NTLM: agregar excepciones de servidor remoto para autenticación NTLM	No está definido
+			Seguridad de red: restringir NTLM: auditar el tráfico NTLM entrante	No está definido
+			Seguridad de red: restringir NTLM: auditar la autenticación NTLM en este dominio	No está definido
+			Seguridad de red: restringir NTLM: autenticación NTLM en este dominio	No está definido
+			Seguridad de red: restringir NTLM: tráfico NTLM entrante	No está definido
+			Seguridad de red: restringir NTLM: tráfico NTLM saliente hacia servidores remotos	No está definido
+			Seguridad de red: seguridad de sesión mínima para clientes NTLM basados en SSP (incluida RPC segura)	Requerir cifrado de 128 bits
+			Seguridad de red: seguridad de sesión mínima para servidores NTLM basados en SSP (incluida RPC segura)	Requerir cifrado de 128 bits
+			Servidor de red de Microsoft: intentar S4U2Self para obtener información de notificaciones	No está definido
+			Servidor de red Microsoft: desconectar a los clientes cuando expire el tiempo de inicio de sesión	Habilitada
+			Servidor de red Microsoft: firmar digitalmente las comunicaciones (si el cliente lo permite)	Deshabilitada
+			Servidor de red Microsoft: firmar digitalmente las comunicaciones (siempre)	Deshabilitada
+			Servidor de red Microsoft: nivel de validación de nombres de destino SPN del servidor	No está definido
+			Servidor de red Microsoft: tiempo de inactividad requerido antes de suspender la sesión	No está definido
+		Device Tree
+				Equipo basado en x64 ACPI
+						Sistema Microsoft compatible con ACPI
+							Agregador de procesador ACPI
+							Alarma de activación ACPI
+							Botón de característica fija ACPI
+							Botón de inicio/apagado ACPI
+							Botón de suspensión ACPI
+							Complemento de motor de energía Intel
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Intel Core i7-8750H CPU @ 2.20GHz
+							Interfaz de administración para ACPI de Microsoft Windows
+							Interfaz de administración para ACPI de Microsoft Windows
+							Módulo de plataforma segura 2.0
+							Zona térmica ACPI
+								Complejo raíz PCI Express
+									Controladora de host Intel Serial IO GPIO: INT3450
+									Controladora PCI de RAM estándar
+									Intel Host Bridge/DRAM Registers - 3EC4
+									Intel Serial IO I2C Host Controller - A368
+									Intel SMBus - A323
+									Intel SPI (flash) Controller - A324
+									Intel Thermal Subsystem - A379
+									Interfaz de administración para ACPI de Microsoft Windows
+									Interfaz de administración para ACPI de Microsoft Windows
+									Recursos de la placa base
+									Recursos de la placa base
+									Recursos de la placa base
+									Recursos de la placa base
+									Recursos de la placa base
+										Intel(R) PCIe Controller (x16) - 1901
+											NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+										Intel(R) UHD Graphics 630
+											Intel Graphics Command Center
+											Intel Graphics Control Panel
+											Monitor PnP genérico
+										Controlador de host eXtensible Intel(R) USB 3.1 - 1.10 (Microsoft)
+												Concentrador raíz USB (USB 3.0)
+														Dispositivo de entrada USB
+															Dispositivo compatible con HID
+															Mouse compatible con HID
+														Dispositivo compuesto USB
+															HD Webcam
+														Intel(R) Wireless Bluetooth(R)
+															Bluetooth Device (Personal Area Network)
+															Bluetooth Device (RFCOMM Protocol TDI)
+																Enumerador de Bluetooth LE de Microsoft
+																	Galaxy S6
+																	Galaxy S8
+																		Galaxy Tab A
+																			Perfil de acceso genérico
+																			Perfil de atributo genérico
+																		Mi Teléfono
+																			Perfil de acceso genérico
+																			Perfil de atributo genérico
+																			Servicio de atributo genérico de LE de Bluetooth
+																Enumerador Bluetooth de Microsoft
+																	Controlador de transporte de Bluetooth AVRCP de Microsoft
+																	Dispositivo Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Dispositivo periférico Bluetooth
+																	Galaxy S6
+																	Galaxy S6 Transporte AVRCP
+																	Galaxy S8
+																	Galaxy S8 Transporte AVRCP
+																	Galaxy S8 Transporte AVRCP
+																	Galaxy Tab A
+																	Galaxy Tab A Transporte AVRCP
+																	Galaxy Tab A Transporte AVRCP
+																	L-80
+																	L-80 Stereo
+																	L-80 Transporte AVRCP
+																	Mi True Wireless EBs Basic_R
+																	Mi True Wireless EBs Basic_R Stereo
+																	Mi True Wireless EBs Basic_R Transporte AVRCP
+																	Mi True Wireless EBs Basic_R Transporte AVRCP
+																	Servicio de acceso a la guía telefónica (PSE)
+																	Servicio de acceso a la guía telefónica (PSE)
+																	Servicio de acceso a la guía telefónica (PSE)
+																	Servicio de acceso a SIM
+																	Servicio de acceso a SIM
+																	Servicio de inserción de objeto
+																	Servicio de inserción de objeto
+																	Servicio de inserción de objeto
+																	Servicio de inserción de objeto
+																	Servicio de origen de audio
+																	Servicio de origen de audio
+																	Servicio de origen de audio
+																	Servicio de origen de audio
+																	Servicio de puerta de enlace de audio de auriculares con micrófono
+																	Servicio de puerta de enlace de audio de auriculares con micrófono
+																	Servicio de puerta de enlace de audio de auriculares con micrófono
+																	Servicio de puerta de enlace de audio de auriculares con micrófono
+																	Servicio de red de área personal
+																	Servicio de red de área personal
+																	Servicio de red de área personal
+																	Servicio de red de área personal
+																	Servicio NAP de red de área personal
+																	Servicio NAP de red de área personal
+																	Servicio NAP de red de área personal
+																	SMS/MMS
+																	SMS/MMS
+																	SMS/MMS
+																		Mi True Wireless EBs Basic_R Hands-Free AG
+																			Mi True Wireless EBs Basic_R Hands-Free AG Audio
+																		Galaxy Tab A Hands-Free HF
+																			Galaxy Tab A Hands-Free HF Audio
+																		Rol Handsfree de perfil manos libres de Microsoft Bluetooth
+																			Dispositivo de audio manos libres de Microsoft Bluetooth
+																		Galaxy S6 Hands-Free HF
+																			Galaxy S6 Hands-Free HF Audio
+																		Galaxy S8 Hands-Free HF
+																			Galaxy S8 Hands-Free HF Audio
+										Intel(R) Wireless-AC 9462
+											Microsoft Wi-Fi Direct Virtual Adapter #5
+											Microsoft Wi-Fi Direct Virtual Adapter #6
+										Intel(R) Serial IO I2C Host Controller - A36A
+												Dispositivo HID I2C
+													Dispositivo definido por el proveedor compatible con HID
+													Microsoft Input Configuration Device
+													Mouse compatible con HID
+													Panel táctil compatible con HID
+										Intel(R) Management Engine Interface 
+											Componente de software genérico
+											Intel Dynamic Application Loader Host Interface
+											Intel iCLS Client
+										Intel(R) 300 Series Chipset Family SATA AHCI Controller
+											ST1000LM049-2GH172
+										Intel(R) PCI Express Root Port #9 - A330
+												Controladora NVM Express estándar
+													WDC PC SN520 SDAPNUW-512G
+										Intel(R) PCI Express Root Port #13 - A334
+											Realtek PCIe GbE Family Controller
+										Intel(R) 300 Series Chipset Family LPC Controller - A30D
+											Controladora programable de interrupciones
+											Mouse compatible PS/2
+											Procesador de datos numéricos
+											Recursos de la placa base
+											Recursos de la placa base
+											Teclado PS/2 estándar
+											Temporizador de eventos de alta precisión
+											Temporizador del sistema
+												Controladora integrada compatible con Microsoft ACPI
+													Adaptador de CA de Microsoft
+													Batería con método de control compatible con ACPI de Microsoft
+													Interfaz de administración para ACPI de Microsoft Windows
+													Tapa ACPI
+														Radio Switch Device
+															Controles de radio inalámbrica compatibles con HID
+										Controladora de High Definition Audio
+											Sonido Intel para pantallas
+												Realtek(R) Audio
+													A-Volute Nh3 Audio Effects Component
+													Altavoces (Realtek Audio)
+													Microphone (Realtek Audio)
+													Nahimic mirroring device
+													Realtek Audio Effects Component
+													Realtek Audio Universal Service
+													Realtek Hardware Support Application
+						Sistema compatible con Microsoft UEFI
+							Firmware de sistema
+CPU
+		Intel Core i7 8750H
+			Cores	6
+			Threads	12
+			Name	Intel Core i7 8750H
+			Code Name	Coffee Lake
+			Package	Socket 1440 FCBGA
+			Technology	14nm
+			Specification	Intel Core i7-8750H CPU @ 2.20GHz
+			Family	6
+			Extended Family	6
+			Model	E
+			Extended Model	9E
+			Stepping	A
+			Revision	U0
+			Instructions	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Intel 64, NX, VMX, AES, AVX, AVX2, FMA3
+			Virtualization	Supported, Enabled
+			Hyperthreading	Supported, Enabled
+			Bus Speed	99.7 MHz
+			Stock Core Speed	2200 MHz
+			Stock Bus Speed	100 MHz
+			Average Temperature	51 °C
+				Caches
+					L1 Data Cache Size	6 x 32 KBytes
+					L1 Instructions Cache Size	6 x 32 KBytes
+					L2 Unified Cache Size	6 x 256 KBytes
+					L3 Unified Cache Size	9216 KBytes
+				Cores
+						Core 0
+							Core Speed	2892.2 MHz
+							Multiplier	x 29.0
+							Bus Speed	99.7 MHz
+							Temperature	48 °C
+							Threads	APIC ID: 0, 1
+						Core 1
+							Core Speed	2892.2 MHz
+							Multiplier	x 29.0
+							Bus Speed	99.7 MHz
+							Temperature	55 °C
+							Threads	APIC ID: 2, 3
+						Core 2
+							Core Speed	2991.9 MHz
+							Multiplier	x 30.0
+							Bus Speed	99.7 MHz
+							Temperature	49 °C
+							Threads	APIC ID: 4, 5
+						Core 3
+							Core Speed	2991.9 MHz
+							Multiplier	x 30.0
+							Bus Speed	99.7 MHz
+							Temperature	52 °C
+							Threads	APIC ID: 6, 7
+						Core 4
+							Core Speed	2991.9 MHz
+							Multiplier	x 30.0
+							Bus Speed	99.7 MHz
+							Temperature	51 °C
+							Threads	APIC ID: 8, 9
+						Core 5
+							Core Speed	2991.9 MHz
+							Multiplier	x 30.0
+							Bus Speed	99.7 MHz
+							Temperature	48 °C
+							Threads	APIC ID: 10, 11
+RAM
+		Memory slots
+			Total memory slots	2
+			Used memory slots	1
+			Free memory slots	1
+		Memory
+			Type	Unknown
+			Size	16384 MBytes
+			Channels #	Single
+			DRAM Frequency	1329.8 MHz
+			CAS# Latency (CL)	19 clocks
+			RAS# to CAS# Delay (tRCD)	19 clocks
+			RAS# Precharge (tRP)	19 clocks
+			Cycle Time (tRAS)	43 clocks
+			Command Rate (CR)	2T
+		Physical Memory
+			Memory Usage	44 %
+			Total Physical	16 GB
+			Available Physical	8.82 GB
+			Total Virtual	30 GB
+			Available Virtual	20 GB
+		SPD
+			Number Of SPD Modules	1
+				Slot #1
+					Type	Unknown
+					Size	16384 MBytes
+					Manufacturer	Samsung
+					Max Bandwidth	DDR4-2666 (1333 MHz)
+					Part Number	M471A2K43CB1-CTD
+					Serial Number	1093711298
+					Week/year	43 / 18
+						Timing table
+								JEDEC #1
+									Frequency	727.3 MHz
+									CAS# Latency	10,0
+									RAS# To CAS#	10
+									RAS# Precharge	10
+									tRAS	24
+									tRC	34
+									Voltage	1,200 V
+								JEDEC #2
+									Frequency	800.0 MHz
+									CAS# Latency	11,0
+									RAS# To CAS#	11
+									RAS# Precharge	11
+									tRAS	26
+									tRC	37
+									Voltage	1,200 V
+								JEDEC #3
+									Frequency	872.7 MHz
+									CAS# Latency	12,0
+									RAS# To CAS#	12
+									RAS# Precharge	12
+									tRAS	28
+									tRC	40
+									Voltage	1,200 V
+								JEDEC #4
+									Frequency	945.5 MHz
+									CAS# Latency	13,0
+									RAS# To CAS#	13
+									RAS# Precharge	13
+									tRAS	31
+									tRC	44
+									Voltage	1,200 V
+								JEDEC #5
+									Frequency	1018.2 MHz
+									CAS# Latency	14,0
+									RAS# To CAS#	14
+									RAS# Precharge	14
+									tRAS	33
+									tRC	47
+									Voltage	1,200 V
+								JEDEC #6
+									Frequency	1090.9 MHz
+									CAS# Latency	15,0
+									RAS# To CAS#	15
+									RAS# Precharge	15
+									tRAS	35
+									tRC	50
+									Voltage	1,200 V
+								JEDEC #7
+									Frequency	1163.6 MHz
+									CAS# Latency	16,0
+									RAS# To CAS#	16
+									RAS# Precharge	16
+									tRAS	38
+									tRC	54
+									Voltage	1,200 V
+								JEDEC #8
+									Frequency	1236.4 MHz
+									CAS# Latency	17,0
+									RAS# To CAS#	17
+									RAS# Precharge	17
+									tRAS	40
+									tRC	57
+									Voltage	1,200 V
+								JEDEC #9
+									Frequency	1309.1 MHz
+									CAS# Latency	18,0
+									RAS# To CAS#	18
+									RAS# Precharge	18
+									tRAS	42
+									tRC	60
+									Voltage	1,200 V
+								JEDEC #10
+									Frequency	1333.3 MHz
+									CAS# Latency	19,0
+									RAS# To CAS#	19
+									RAS# Precharge	19
+									tRAS	43
+									tRC	61
+									Voltage	1,200 V
+								JEDEC #11
+									Frequency	1333.3 MHz
+									CAS# Latency	20,0
+									RAS# To CAS#	19
+									RAS# Precharge	19
+									tRAS	43
+									tRC	61
+									Voltage	1,200 V
+Motherboard
+	Manufacturer	Micro-Star International Co. Ltd.
+	Model	MS-17F1 (U3E1)
+	Version	REV:1.0
+	Chipset Vendor	Intel
+	Chipset Model	Coffee Lake
+	Chipset Revision	07
+	Southbridge Vendor	Intel
+	Southbridge Model	HM370
+	Southbridge Revision	10
+		BIOS
+			Brand	American Megatrends Inc.
+			Version	E17F1IMS.101
+			Date	23/11/2018
+		PCI Data
+				Slot PCI-E
+					Slot Type	PCI-E
+					Slot Usage	In Use
+					Data lanes	x16
+					Slot Designation	J6B2
+					Characteristics	3.3V, Shared, PME
+					Slot Number	0
+				Slot PCI-E
+					Slot Type	PCI-E
+					Slot Usage	In Use
+					Data lanes	x1
+					Slot Designation	J6B1
+					Characteristics	3.3V, Shared, PME
+					Slot Number	1
+				Slot PCI-E
+					Slot Type	PCI-E
+					Slot Usage	In Use
+					Data lanes	x1
+					Slot Designation	J6D1
+					Characteristics	3.3V, Shared, PME
+					Slot Number	2
+				Slot PCI-E
+					Slot Type	PCI-E
+					Slot Usage	In Use
+					Data lanes	x1
+					Slot Designation	J7B1
+					Characteristics	3.3V, Shared, PME
+					Slot Number	3
+				Slot PCI-E
+					Slot Type	PCI-E
+					Slot Usage	In Use
+					Data lanes	x1
+					Slot Designation	J8B4
+					Characteristics	3.3V, Shared, PME
+					Slot Number	4
+Graphics
+		Monitor
+			Name	Generic PnP Monitor on Intel UHD Graphics 630
+			Current Resolution	1920x1080 pixels
+			Work Resolution	1920x1040 pixels
+			State	Enabled, Primary
+			Monitor Width	1920
+			Monitor Height	1080
+			Monitor BPP	32 bits per pixel
+			Monitor Frequency	60 Hz
+			Device	\\.\DISPLAY1\Monitor0
+		Intel UHD Graphics 630
+			Manufacturer	Intel
+			Model	UHD Graphics 630
+			Device ID	8086-3E9B
+			Subvendor	MSI (1462)
+			Current Performance Level	Level 0
+			Voltage	0.669 V
+			Driver version	27.20.100.8681
+				Count of performance levels : 1
+					Level 1 - "Perf Level 0"
+		NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+			Manufacturer	NVIDIA
+			Model	GeForce GTX 1050 Ti with Max-Q Design
+			Device ID	10DE-1C8F
+			Revision	A2
+			Subvendor	MSI (1462)
+			Current Performance Level	Level 0
+			Current GPU Clock	139 MHz
+			Current Memory Clock	405 MHz
+			Current Shader Clock	405 MHz
+			Voltage	0.669 V
+			Technology	14 nm
+			Bus Interface	PCI Express x16
+			Temperature	37 °C
+			Driver version	27.21.14.5730
+			BIOS Version	86.07.68.00.27
+			Memory	4095 MB
+				Count of performance levels : 1
+						Level 1 - "Perf Level 0"
+							GPU Clock	139 MHz
+							Shader Clock	405 MHz
+Storage
+		Hard drives
+				WDC PC SN520 SDAPNUW-512G (SSD)
+					Manufacturer	Western Digital
+					Interface/Connector	SATA 1.5 Gb/s with 22-pin SATA connector
+					Interface	Unknown
+					Capacity	476 GB
+					Real size	512.110.190.592 bytes
+					RAID Type	None
+						S.M.A.R.T
+							S.M.A.R.T not supported
+						Partition 0
+							Partition ID	Disk #0, Partition #0
+							File System	FAT32
+							Volume Serial Number	30CC0EAF
+							Size	296 MB
+							Used Space	26,7 MB (9%)
+							Free Space	269 MB (91%)
+						Partition 1
+							Partition ID	Disk #0, Partition #1
+							Disk Letter	C:
+							File System	NTFS
+							Volume Serial Number	C6CC8F15
+							Size	475 GB
+							Used Space	133 GB (28%)
+							Free Space	342 GB (72%)
+						Partition 2
+							Partition ID	Disk #0, Partition #2
+							File System	NTFS
+							Volume Serial Number	04CD0EC1
+							Size	899 MB
+							Used Space	453 MB (50%)
+							Free Space	446 MB (50%)
+				ST1000LM049-2GH172 (SSD)
+					Manufacturer	Seagate
+					Heads	16
+					Cylinders	121.601
+					Tracks	31.008.255
+					Sectors	1.953.520.065
+					SATA type	SATA-III 6.0Gb/s
+					Device type	Fixed
+					ATA Standard	ACS3
+					Serial Number	WGS2QRH2
+					Firmware Version Number	SDM1
+					LBA Size	48-bit LBA
+					Power On Count	873 times
+					Power On Time	28,1 days
+					Speed	7200 RPM
+					Features	S.M.A.R.T., APM, NCQ, TRIM
+					Max. Transfer Mode	SATA III 6.0Gb/s
+					Used Transfer Mode	SATA III 6.0Gb/s
+					Interface	SATA
+					Capacity	931 GB
+					Real size	1.000.204.886.016 bytes
+					RAID Type	None
+						S.M.A.R.T
+							Status	Good
+							Temperature	30 °C
+							Temperature Range	OK (less than 50 °C)
+								S.M.A.R.T attributes
+										01
+											Attribute name	Read Error Rate
+											Real value	0
+											Current	77
+											Worst	64
+											Threshold	6
+											Raw Value	00032FAC13
+											Status	Good
+										03
+											Attribute name	Spin-Up Time
+											Real value	0 ms
+											Current	99
+											Worst	99
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										04
+											Attribute name	Start/Stop Count
+											Real value	2.340
+											Current	98
+											Worst	98
+											Threshold	20
+											Raw Value	0000000924
+											Status	Good
+										05
+											Attribute name	Reallocated Sectors Count
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	36
+											Raw Value	0000000000
+											Status	Good
+										07
+											Attribute name	Seek Error Rate
+											Real value	0
+											Current	70
+											Worst	60
+											Threshold	45
+											Raw Value	00008B197C
+											Status	Good
+										09
+											Attribute name	Power-On Hours (POH)
+											Real value	28d 2h
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	00000002A2
+											Status	Good
+										0A
+											Attribute name	Spin Retry Count
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	97
+											Raw Value	0000000000
+											Status	Good
+										0C
+											Attribute name	Device Power Cycle Count
+											Real value	873
+											Current	100
+											Worst	100
+											Threshold	20
+											Raw Value	0000000369
+											Status	Good
+										B8
+											Attribute name	End-to-End error / IOEDC
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	99
+											Raw Value	0000000000
+											Status	Good
+										BB
+											Attribute name	Reported Uncorrectable Errors
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										BC
+											Attribute name	Command Timeout
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										BD
+											Attribute name	High Fly Writes (WDC)
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										BE
+											Attribute name	Airflow Temperature
+											Real value	29 °C
+											Current	71
+											Worst	51
+											Threshold	40
+											Raw Value	001F14001D
+											Status	Good
+										BF
+											Attribute name	G-sense error rate
+											Real value	1
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000001
+											Status	Good
+										C0
+											Attribute name	Power-off Retract Count
+											Real value	3
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000003
+											Status	Good
+										C1
+											Attribute name	Load/Unload Cycle Count
+											Real value	13.674
+											Current	94
+											Worst	94
+											Threshold	0
+											Raw Value	000000356A
+											Status	Good
+										C2
+											Attribute name	Temperature
+											Real value	29 °C
+											Current	29
+											Worst	49
+											Threshold	0
+											Raw Value	000000001D
+											Status	Good
+										C5
+											Attribute name	Current Pending Sector Count
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										C6
+											Attribute name	Uncorrectable Sector Count
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										C7
+											Attribute name	UltraDMA CRC Error Count
+											Real value	0
+											Current	200
+											Worst	200
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+										F0
+											Attribute name	Head Flying Hours
+											Real value	9d 3h
+											Current	100
+											Worst	253
+											Threshold	0
+											Raw Value	00000000DB
+											Status	Good
+										F1
+											Attribute name	Total LBAs Written
+											Real value	891.864.376
+											Current	100
+											Worst	253
+											Threshold	0
+											Raw Value	003528C538
+											Status	Good
+										F2
+											Attribute name	Total LBAs Read
+											Real value	1.859.809.655
+											Current	100
+											Worst	253
+											Threshold	0
+											Raw Value	006EDA7177
+											Status	Good
+										FE
+											Attribute name	Free Fall Protection
+											Real value	0
+											Current	100
+											Worst	100
+											Threshold	0
+											Raw Value	0000000000
+											Status	Good
+						Partition 0
+							Partition ID	Disk #1, Partition #0
+							Disk Letter	D:
+							File System	NTFS
+							Volume Serial Number	F2D1995E
+							Size	912 GB
+							Used Space	19,5 GB (2%)
+							Free Space	893 GB (98%)
+						Partition 1
+							Partition ID	Disk #1, Partition #1
+							Path	C:\Windows\RE_DRIVE\Mount\
+							File System	NTFS
+							Volume Serial Number	3AD2C3E5
+							Size	18,9 GB
+							Used Space	18,7 GB (99%)
+							Free Space	182 MB (1%)
+Optical Drives
+	No optical disk drives detected
+Audio
+		Sound Cards
+			Nahimic mirroring device
+			NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+			Realtek High Definition Audio
+			Sonido Intel para pantallas
+		Playback Device
+			Altavoces (Realtek Audio)
+		Recording Device
+			Microphone (Realtek Audio)
+Peripherals
+		Teclado PS/2 estándar
+			Device Kind	Keyboard
+			Device Name	Teclado PS/2 estándar
+			Vendor	MSI
+			Location	Intel 300 Series Chipset Family LPC Controller - A30D
+				Driver
+					Date	6-21-2006
+					Version	10.0.18362.1
+					File	C:\WINDOWS\system32\DRIVERS\i8042prt.sys
+					File	C:\WINDOWS\system32\DRIVERS\kbdclass.sys
+		Mouse compatible con HID
+			Device Kind	Mouse
+			Device Name	Mouse compatible con HID
+			Vendor	CUST
+			Location	Dispositivo HID I2C
+				Driver
+					Date	6-21-2006
+					Version	10.0.18362.1
+					File	C:\WINDOWS\system32\DRIVERS\mouhid.sys
+					File	C:\WINDOWS\system32\DRIVERS\mouclass.sys
+		Mouse compatible PS/2
+			Device Kind	Mouse
+			Device Name	Mouse compatible PS/2
+			Vendor	MSNB
+			Location	Intel 300 Series Chipset Family LPC Controller - A30D
+				Driver
+					Date	6-21-2006
+					Version	10.0.18362.1
+					File	C:\WINDOWS\system32\DRIVERS\mouclass.sys
+					File	C:\WINDOWS\system32\DRIVERS\i8042prt.sys
+		Mouse compatible con HID
+			Device Kind	Mouse
+			Device Name	Mouse compatible con HID
+			Vendor	Logitech
+			Location	Dispositivo de entrada USB
+				Driver
+					Date	6-21-2006
+					Version	10.0.18362.1
+					File	C:\WINDOWS\system32\DRIVERS\mouhid.sys
+					File	C:\WINDOWS\system32\DRIVERS\mouclass.sys
+		HP Officejet 4630 series
+			Device Kind	Printer
+			Device Name	HP Officejet 4630 series
+			Vendor	HP
+			Location	http://192.168.1.141:3911/
+				Driver
+					Date	4-16-2013
+					Version	12.28.0.2027
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpoj_4630.gpd
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hppcl12-pipelineconfig.xml
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpbxpsrender.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\UNIDRV.DLL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\UNIRES.DLL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\UNIDRVUI.DLL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\STDNAMES.GPD
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\STDDTYPE.GDL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\STDSCHEM.GDL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\STDSCHMX.GDL
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\UNIDRV.HLP
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\LOCALE.GPD
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpmacronames.gpd
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpbytxdrv12.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpbytxUI12.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpvplres12.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpfime52.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpbx3config12.ini
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\UIDialog.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\MSXPSINC.GPD
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpinkstsC611LM.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\hpinkstsC611.dll
+					File	C:\WINDOWS\system32\spool\drivers\color\sRGB_Color_Space_Profile.icm
+					File	C:\WINDOWS\system32\hpinkcoiC611.dll
+					File	C:\WINDOWS\system32\hpinkinsC611.exe
+					File	C:\WINDOWS\system32\hpinkstsC611LM.dll
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\MSXPSINC.GPD
+					File	C:\WINDOWS\system32\spool\DRIVERS\x64\{31AD1B05-259C-4ABB-A16E-CA846F014099}\MXDWDRV.DLL
+		Printers
+				Fax
+					Printer Port	SHRFAX:
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	200 * 200 dpi Monochrome
+					Status	Unknown
+						Driver
+							Driver Name	Microsoft Shared Fax Driver (v4.00)
+							Driver Path	C:\WINDOWS\system32\spool\DRIVERS\x64\3\FXSDRV.DLL
+				HP ePrint + JetAdvantage (Default Printer)
+					Printer Port	HP ePrint
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	600 * 600 dpi Color
+					Status	Unknown
+						Driver
+							Driver Name	HP Delivery Driver V4 (v6.03)
+							Driver Path	C:\WINDOWS\System32\DriverStore\FileRepository\ntprint.inf_amd64_857cc9be9812fff6\Amd64\mxdwdrv.dll
+				HP Officejet 4630 series [65339A]
+					Printer Port	WSD-4cd4d181-a34c-47d9-83d0-1e5ab9cfa40e
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	600 * 600 dpi Color
+					Status	The printer is offline
+						Driver
+							Driver Name	HP Officejet 4630 series (v6.03)
+							Driver Path	C:\WINDOWS\system32\spool\DRIVERS\x64\3\mxdwdrv.dll
+				Microsoft Print to PDF
+					Printer Port	PORTPROMPT:
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	600 * 600 dpi Color
+					Status	Unknown
+						Driver
+							Driver Name	Microsoft Print To PDF (v6.03)
+							Driver Path	C:\WINDOWS\System32\DriverStore\FileRepository\ntprint.inf_amd64_857cc9be9812fff6\Amd64\mxdwdrv.dll
+				Microsoft XPS Document Writer
+					Printer Port	PORTPROMPT:
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	600 * 600 dpi Color
+					Status	Unknown
+						Driver
+							Driver Name	Microsoft XPS Document Writer v4 (v6.03)
+							Driver Path	C:\WINDOWS\System32\DriverStore\FileRepository\ntprint.inf_amd64_857cc9be9812fff6\Amd64\mxdwdrv.dll
+				OneNote for Windows 10
+					Printer Port	Microsoft.Office.OneNote_16001.13328.20348.0_x64__8wekyb3d8bbwe_microsoft.onenoteim_S-1-5-21-3745141493-3705293168-2567902055-1001
+					Print Processor	winprint
+					Availability	Always
+					Priority	1
+					Duplex	None
+					Print Quality	300 * 300 dpi Color
+					Status	Unknown
+						Driver
+							Driver Name	Microsoft Software Printer Driver (v6.03)
+							Driver Path	C:\WINDOWS\System32\DriverStore\FileRepository\ntprint.inf_amd64_857cc9be9812fff6\Amd64\mxdwdrv.dll
+Network
+	You are connected to the internet
+	Connected through	Intel Wireless-AC 9462
+	IP Address	192.168.0.145
+	Subnet mask	255.255.255.0
+	Gateway server	192.168.0.1
+	Preferred DNS server	192.168.0.1
+	DHCP	Enabled
+	DHCP server	192.168.0.1
+	External IP Address	79.108.142.107
+	Adapter Type	IEEE 802.11 wireless
+	NetBIOS over TCP/IP	Enabled via DHCP
+	NETBIOS Node Type	Hybrid node
+	Link Speed	0 Bps
+		Computer Name
+			NetBIOS Name	PITERXUS-PORTA
+			DNS Name	Piterxus-Porta
+			Membership	Part of workgroup
+			Workgroup	WORKGROUP
+		Remote Desktop
+			Disabled
+				Console
+					State	Active
+					Domain	PITERXUS-PORTA
+		WinInet Info
+			Conexión LAN
+			Local system uses a local area network to connect to the Internet
+			Local system has RAS to connect to the Internet
+		Wi-Fi Info
+			Using native Wi-Fi API version	2
+			Available access points count	6
+				Wi-Fi (MIWIFI_h3MD)
+					SSID	MIWIFI_h3MD
+					Frequency	5300000 kHz
+					Channel Number	60
+					Name	MIWIFI_h3MD
+					Signal Strength/Quality	29
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	There is a profile for this network
+					Cipher Algorithm to be used when joining this network	AES-CCMP algorithm
+					Default Auth used to join this network for the first time	802.11i RSNA algorithm that uses PSK
+				Wi-Fi (MOVISTAR_54D7)
+					SSID	MOVISTAR_54D7
+					Frequency	2412000 kHz
+					Channel Number	1
+					Name	MOVISTAR_54D7
+					Signal Strength/Quality	38
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	There is a profile for this network
+					Cipher Algorithm to be used when joining this network	AES-CCMP algorithm
+					Default Auth used to join this network for the first time	802.11i RSNA algorithm that uses PSK
+				Wi-Fi (Orange-00b4)
+					SSID	Orange-00b4
+					Frequency	2437000 kHz
+					Channel Number	6
+					Name	Orange-00b4
+					Signal Strength/Quality	38
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	There is a profile for this network
+					Cipher Algorithm to be used when joining this network	Temporal Key Integrity Protocol (TKIP) algorithm
+					Default Auth used to join this network for the first time	WPA algorithm that uses preshared keys (PSK)
+				Wi-Fi (vodafoneAAHXVC)
+					SSID	vodafoneAAHXVC
+					Frequency	2462000 kHz
+					Channel Number	11
+					Name	vodafoneAAHXVC
+					Signal Strength/Quality	81
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	There is a profile for this network
+					Cipher Algorithm to be used when joining this network	AES-CCMP algorithm
+					Default Auth used to join this network for the first time	802.11i RSNA algorithm that uses PSK
+				Wi-Fi (vodafoneAAHXVC-5G)
+					SSID	vodafoneAAHXVC-5G
+					Frequency	5500000 kHz
+					Channel Number	100
+					Name	vodafoneAAHXVC-5G
+					Signal Strength/Quality	84
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	Currently Connected to this network
+					Cipher Algorithm to be used when joining this network	AES-CCMP algorithm
+					Default Auth used to join this network for the first time	802.11i RSNA algorithm that uses PSK
+				Wi-Fi (vodafoneD6A0)
+					SSID	vodafoneD6A0
+					Frequency	2412000 kHz
+					Channel Number	1
+					Name	vodafoneD6A0
+					Signal Strength/Quality	31
+					Security	Enabled
+					State	The interface is connected to a network
+					Dot11 Type	Infrastructure BSS network
+					Network	Connectible
+					Network Flags	There is a profile for this network
+					Cipher Algorithm to be used when joining this network	AES-CCMP algorithm
+					Default Auth used to join this network for the first time	802.11i RSNA algorithm that uses PSK
+		WinHTTPInfo
+			WinHTTPSessionProxyType	No proxy
+			Session Proxy
+			Session Proxy Bypass
+			Connect Retries	5
+			Connect Timeout (ms)	60.000
+			HTTP Version	HTTP 1.1
+			Max Connects Per 1.0 Servers	INFINITE
+			Max Connects Per Servers	INFINITE
+			Max HTTP automatic redirects	10
+			Max HTTP status continue	10
+			Send Timeout (ms)	30.000
+			IEProxy Auto Detect	Yes
+			IEProxy Auto Config
+			IEProxy
+			IEProxy Bypass
+			Default Proxy Config Access Type	No proxy
+			Default Config Proxy
+			Default Config Proxy Bypass
+		Sharing and Discovery
+			Network Discovery	Enabled
+			File and Printer Sharing	Enabled
+			File and printer sharing service	Enabled
+			Simple File Sharing	Enabled
+			Administrative Shares	Enabled
+			Acceso a redes: modelo de seguridad y uso compartido para cuentas locales	Clásico: usuarios locales se autentican con credenciales propias
+		Adapters List
+				Enabled
+						Bluetooth Device (Personal Area Network)
+							Connection Name	Conexión de red Bluetooth
+							DHCP enabled	Yes
+							MAC Address	1C-1B-B5-0A-35-D8
+						Intel(R) Wireless-AC 9462
+							Connection-specific DNS Suffix	technicolor.net
+							Connection Name	Wi-Fi
+							NetBIOS over TCPIP	Yes
+							DHCP enabled	Yes
+							MAC Address	1C-1B-B5-0A-35-D4
+							IP Address	192.168.0.145
+							Subnet mask	255.255.255.0
+							Gateway server	192.168.0.1
+							DHCP	192.168.0.1
+							DNS Server	192.168.0.1
+						Realtek PCIe GbE Family Controller
+							Connection-specific DNS Suffix	technicolor.net
+							Connection Name	Ethernet
+							DHCP enabled	Yes
+							MAC Address	00-D8-61-05-3A-B6
+						VirtualBox Host-Only Ethernet Adapter
+							Connection Name	VirtualBox Host-Only Network
+							NetBIOS over TCPIP	Yes
+							DHCP enabled	No
+							MAC Address	0A-00-27-00-00-04
+							IP Address	169.254.99.168
+							Subnet mask	255.255.0.0
+		Network Shares
+			No network shares
+		Current TCP Connections
+				C:\Program Files (x86)\Google\Chrome\Application\chrome.exe (10492)
+					Local 192.168.0.145:59166	ESTABLISHED Remote 104.16.89.50:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59167	ESTABLISHED Remote 104.16.89.50:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59177	ESTABLISHED Remote 172.217.168.170:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59186	ESTABLISHED Remote 104.17.210.204:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59189	ESTABLISHED Remote 23.111.9.38:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59190	ESTABLISHED Remote 52.84.70.112:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59191	ESTABLISHED Remote 104.17.233.204:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59192	ESTABLISHED Remote 104.17.115.176:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59193	ESTABLISHED Remote 104.17.67.176:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59194	ESTABLISHED Remote 104.18.21.191:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59195	ESTABLISHED Remote 104.19.154.83:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59196	ESTABLISHED Remote 104.17.204.204:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59197	ESTABLISHED Remote 104.19.154.83:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59198	ESTABLISHED Remote 104.16.18.94:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59199	ESTABLISHED Remote 13.33.232.83:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59200	ESTABLISHED Remote 34.193.113.164:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59201	ESTABLISHED Remote 34.193.113.164:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59202	ESTABLISHED Remote 34.193.113.164:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59203	ESTABLISHED Remote 50.16.7.188:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59204	ESTABLISHED Remote 50.16.7.188:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59211	ESTABLISHED Remote 104.17.243.204:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59224	ESTABLISHED Remote 172.67.207.146:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59226	ESTABLISHED Remote 216.58.201.174:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59227	ESTABLISHED Remote 192.0.73.2:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59228	ESTABLISHED Remote 216.58.211.34:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59229	ESTABLISHED Remote 172.217.17.1:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59023	ESTABLISHED Remote 192.168.0.165:8009 (Querying... )
+					Local 192.168.0.145:59050	ESTABLISHED Remote 104.27.147.244:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59118	ESTABLISHED Remote 172.67.177.163:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59122	ESTABLISHED Remote 192.0.76.3:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59127	ESTABLISHED Remote 192.0.77.2:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59130	ESTABLISHED Remote 192.0.77.2:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59132	ESTABLISHED Remote 216.58.201.166:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59139	ESTABLISHED Remote 104.17.4.11:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59240	ESTABLISHED Remote 216.58.211.234:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59143	ESTABLISHED Remote 104.16.243.229:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59243	ESTABLISHED Remote 216.58.215.138:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59244	ESTABLISHED Remote 151.139.237.73:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59145	ESTABLISHED Remote 104.16.243.229:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59251	ESTABLISHED Remote 216.58.211.34:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59252	ESTABLISHED Remote 34.96.102.137:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59253	ESTABLISHED Remote 172.217.168.168:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59254	ESTABLISHED Remote 216.58.201.163:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59256	ESTABLISHED Remote 204.79.197.200:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59257	ESTABLISHED Remote 208.118.62.69:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59258	ESTABLISHED Remote 23.210.36.121:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59259	ESTABLISHED Remote 151.101.132.157:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59260	ESTABLISHED Remote 13.33.232.26:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59261	ESTABLISHED Remote 216.58.211.46:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59262	ESTABLISHED Remote 216.58.201.162:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59263	ESTABLISHED Remote 104.244.42.197:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59264	ESTABLISHED Remote 13.33.232.16:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59265	ESTABLISHED Remote 185.63.144.5:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59266	ESTABLISHED Remote 13.33.232.10:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59267	ESTABLISHED Remote 104.18.101.194:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59241	ESTABLISHED Remote 151.101.134.202:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59269	ESTABLISHED Remote 104.244.42.131:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59270	ESTABLISHED Remote 23.210.39.206:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59271	ESTABLISHED Remote 52.215.41.194:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59272	ESTABLISHED Remote 104.126.84.43:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59273	ESTABLISHED Remote 104.126.84.43:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59148	ESTABLISHED Remote 172.217.168.179:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59156	ESTABLISHED Remote 168.62.8.102:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59158	ESTABLISHED Remote 52.70.209.233:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59407	ESTABLISHED Remote 64.233.166.188:5228 (Querying... )
+					Local 192.168.0.145:59162	ESTABLISHED Remote 104.16.89.50:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59163	ESTABLISHED Remote 192.0.78.23:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59165	ESTABLISHED Remote 93.189.95.168:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59268	ESTABLISHED Remote 151.101.134.202:443 (Querying... ) (HTTPS)
+				C:\Program Files (x86)\Microsoft OneDrive\20.169.0823.0008\FileCoAuth.exe (18224)
+					Local 192.168.0.145:59221	ESTABLISHED Remote 52.114.88.28:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59222	ESTABLISHED Remote 52.114.88.28:443 (Querying... ) (HTTPS)
+				C:\Program Files (x86)\Microsoft OneDrive\OneDrive.exe (10356)
+					Local 192.168.0.145:61253	ESTABLISHED Remote 40.67.254.36:443 (Querying... ) (HTTPS)
+				C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe (7292)
+					Local 192.168.0.145:59462	ESTABLISHED Remote 40.67.254.36:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59463	ESTABLISHED Remote 192.168.0.165:8009 (Querying... )
+				C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe (16964)
+					Local 127.0.0.1:58892	LISTEN
+					Local 127.0.0.1:58892	ESTABLISHED Remote 127.0.0.1:58946 (Querying... )
+				C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe (17692)
+					Local 127.0.0.1:58946	ESTABLISHED Remote 127.0.0.1:58892 (Querying... )
+				C:\Program Files\WindowsApps\Microsoft.Office.Desktop.Word_16051.13328.20356.0_x86__8wekyb3d8bbwe\Office16\WINWORD.EXE (7304)
+					Local 192.168.0.145:58901	ESTABLISHED Remote 52.111.231.4:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:60683	ESTABLISHED Remote 13.107.42.12:443 (Querying... ) (HTTPS)
+				C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.13228.41011.0_x64__8wekyb3d8bbwe\commsapps.exe (13072)
+					Local 192.168.0.145:59688	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59689	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59690	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59691	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59692	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59693	CLOSE-WAIT Remote 212.145.209.48:80 (Querying... ) (HTTP)
+					Local 192.168.0.145:59695	CLOSE-WAIT Remote 88.221.237.127:80 (Querying... ) (HTTP)
+				C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.20082.10421.0_x64__8wekyb3d8bbwe\Video.UI.exe (19780)
+					Local 192.168.0.145:59225	CLOSE-WAIT Remote 23.210.44.76:443 (Querying... ) (HTTPS)
+				C:\Users\piter\AppData\Local\WebEx\WebEx\Meetings\atmgr.exe (5168)
+					Local 127.0.0.1:59726	ESTABLISHED Remote 127.0.0.1:59725 (Querying... )
+					Local 127.0.0.1:59725	ESTABLISHED Remote 127.0.0.1:59726 (Querying... )
+					Local 127.0.0.1:59724	ESTABLISHED Remote 127.0.0.1:59723 (Querying... )
+					Local 127.0.0.1:59723	ESTABLISHED Remote 127.0.0.1:59724 (Querying... )
+					Local 127.0.0.1:59722	ESTABLISHED Remote 127.0.0.1:59721 (Querying... )
+					Local 127.0.0.1:59721	ESTABLISHED Remote 127.0.0.1:59722 (Querying... )
+					Local 127.0.0.1:59719	ESTABLISHED Remote 127.0.0.1:59720 (Querying... )
+					Local 127.0.0.1:59720	ESTABLISHED Remote 127.0.0.1:59719 (Querying... )
+				C:\Users\piter\AppData\Local\WebEx\WebEx\Meetings_01\atmgr.exe (10280)
+					Local 127.0.0.1:59714	ESTABLISHED Remote 127.0.0.1:59713 (Querying... )
+					Local 127.0.0.1:59713	ESTABLISHED Remote 127.0.0.1:59714 (Querying... )
+					Local 127.0.0.1:59715	ESTABLISHED Remote 127.0.0.1:59716 (Querying... )
+					Local 127.0.0.1:59716	ESTABLISHED Remote 127.0.0.1:59715 (Querying... )
+					Local 127.0.0.1:59712	ESTABLISHED Remote 127.0.0.1:59711 (Querying... )
+					Local 127.0.0.1:59711	ESTABLISHED Remote 127.0.0.1:59712 (Querying... )
+					Local 127.0.0.1:59710	ESTABLISHED Remote 127.0.0.1:59709 (Querying... )
+					Local 127.0.0.1:59709	ESTABLISHED Remote 127.0.0.1:59710 (Querying... )
+				C:\Windows\ImmersiveControlPanel\SystemSettings.exe (3068)
+					Local 192.168.0.145:59367	CLOSE-WAIT Remote 152.199.19.161:443 (Querying... ) (HTTPS)
+				C:\Windows\System32\smartscreen.exe (10276)
+					Local 192.168.0.145:59275	ESTABLISHED Remote 93.184.220.29:80 (Querying... ) (HTTP)
+				C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe (7352)
+					Local 192.168.0.145:59233	ESTABLISHED Remote 204.79.197.200:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59237	ESTABLISHED Remote 13.107.3.254:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59238	ESTABLISHED Remote 204.79.197.222:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59230	ESTABLISHED Remote 204.79.197.200:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59231	ESTABLISHED Remote 40.101.137.18:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59232	ESTABLISHED Remote 204.79.197.200:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59234	ESTABLISHED Remote 204.79.197.200:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59235	ESTABLISHED Remote 13.107.136.254:443 (Querying... ) (HTTPS)
+				lsass.exe (1000)
+					Local 0.0.0.0:49664	LISTEN
+				mDNSResponder.exe (3084)
+					Local 127.0.0.1:5354	LISTEN
+				NortonSecurity.exe (6964)
+					Local 0.0.0.0:49696	LISTEN
+					Local 0.0.0.0:49695	LISTEN
+					Local 192.168.0.145:59024	ESTABLISHED Remote 13.88.181.35:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59274	ESTABLISHED Remote 168.62.24.23:443 (Querying... ) (HTTPS)
+				nvcontainer.exe (4120)
+					Local 127.0.0.1:65001	ESTABLISHED Remote 127.0.0.1:58875 (Querying... )
+					Local 127.0.0.1:65001	LISTEN
+					Local 127.0.0.1:58875	ESTABLISHED Remote 127.0.0.1:65001 (Querying... )
+				OneApp.IGCC.WinService.exe (4112)
+					Local 0.0.0.0:808	LISTEN
+				services.exe (988)
+					Local 0.0.0.0:49669	LISTEN
+				spoolsv.exe (3652)
+					Local 0.0.0.0:49668	LISTEN
+				svchost.exe (1128)
+					Local 0.0.0.0:135 (DCE)	LISTEN
+				svchost.exe (15456)
+					Local 0.0.0.0:7680	LISTEN
+				svchost.exe (1644)
+					Local 0.0.0.0:49667	LISTEN
+				svchost.exe (1764)
+					Local 0.0.0.0:49666	LISTEN
+				svchost.exe (4180)
+					Local 192.168.0.145:58883	ESTABLISHED Remote 40.67.254.36:443 (Querying... ) (HTTPS)
+				svchost.exe (8628)
+					Local 0.0.0.0:5040	LISTEN
+				System Process
+					Local 192.168.0.145:59250	TIME-WAIT Remote 2.17.152.44:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59157	TIME-WAIT Remote 172.217.168.170:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59223	TIME-WAIT Remote 172.67.207.146:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64846 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64869 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64839 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64865 (Querying... )
+					Local 192.168.0.145:59210	TIME-WAIT Remote 35.168.150.201:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64856 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64834 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64861 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64829 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64824 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64818 (Querying... )
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64812 (Querying... )
+					Local 192.168.0.145:59168	TIME-WAIT Remote 216.58.209.78:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:2869	TIME-WAIT Remote 192.168.0.209:64848 (Querying... )
+					Local 192.168.0.145:59160	TIME-WAIT Remote 172.217.17.14:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59155	TIME-WAIT Remote 216.58.211.34:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59205	TIME-WAIT Remote 35.172.25.66:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59154	TIME-WAIT Remote 216.58.211.34:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59188	TIME-WAIT Remote 216.58.211.230:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59150	TIME-WAIT Remote 52.114.88.28:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59149	TIME-WAIT Remote 52.114.88.28:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59159	TIME-WAIT Remote 138.91.136.108:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59117	TIME-WAIT Remote 216.58.209.78:443 (Querying... ) (HTTPS)
+					Local 192.168.0.145:59161	TIME-WAIT Remote 192.0.73.2:443 (Querying... ) (HTTPS)
+				System Process
+					Local 0.0.0.0:445 (Windows shares)	LISTEN
+					Local 0.0.0.0:2869	LISTEN
+					Local 0.0.0.0:5357	LISTEN
+					Local 0.0.0.0:10243	LISTEN
+					Local 192.168.0.145:139 (NetBIOS session service)	LISTEN
+					Local 169.254.99.168:139 (NetBIOS session service)	LISTEN
+				wininit.exe (916)
+					Local 0.0.0.0:49665	LISTEN
+				wmpnetwk.exe (14332)
+					Local 0.0.0.0:554	LISTEN
+Generated with Speccy v1.32.774
