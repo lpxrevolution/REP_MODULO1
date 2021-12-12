@@ -1,0 +1,25 @@
+create database Evaluable2;
+use Evaluable2;
+
+Centro:
+create table Centro(
+codigo_centro int,
+ciudad varchar (25),
+nombre varchar (30),
+constraint centro_pk primary key (codigo_centro));
+
+Bookiers:
+create table Bookiers(
+dni varchar(9),
+nombre varchar(15),
+apellidos varchar(30),
+id_centro int,
+constraint bookiers_pk primary key (dni),
+constraint bookiers_fk foreign key (id_centro) references Centro(codigo_centro));
+
+Tarjetas:
+create table Tarjetas(
+idtarjeta int,
+dni_bookier varchar(9),
+constraint tarejtas_pk primary key (idtarjeta),
+constraint tarjetas_fk foreign key (dni_bookier) references Bookiers(dni));
