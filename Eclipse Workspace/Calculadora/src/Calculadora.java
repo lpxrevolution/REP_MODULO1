@@ -22,6 +22,7 @@ public class Calculadora {
 	public float Media()
 	{
 		float resultado = (num1+num2+num3)/3;
+		System.out.println(resultado);
 		return resultado;
 	}
 	public int MayorDTres()

@@ -22,7 +22,7 @@ public class CalculadoraTest {
 	public void testMedia() {
 		Calculadora calcu = new Calculadora(1,2,3);
 		float resultado = calcu.Media();
-		assertEquals(1,0, resultado);
+		assertEquals(2,resultado, 0);
 	}
 
 	@Test

@@ -20,7 +20,7 @@ class Calculadora {
     }
     public int media()
     {
-        resultado = (num1*num2*num3)/3;
+        resultado = multiplicacion()/3;
         return resultado;
     }
     public int mayordtres()
