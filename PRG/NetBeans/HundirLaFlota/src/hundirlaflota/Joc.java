@@ -21,7 +21,6 @@ public class Joc
         eleccio = entrada.nextInt();
         return eleccio;
     }
-        
     public void crearTauler()
     {
         taulerUI = new String[tamanyTauler][tamanyTauler];
