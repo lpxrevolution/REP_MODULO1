@@ -56,7 +56,7 @@ public class Joc
             }
             System.out.print("\n");
         }
-        taulerIA = taulerUI;         
+        taulerIA = taulerUI;
     }
     public void eleccioColocarVaixells(int i)
     {
@@ -96,8 +96,7 @@ public class Joc
         numPortaavions = 1;
         tamanyTauler = 11;
         crearTauler();
-               
-        eleccioColocarVaixells(demanarDades());
+        colocarBarcosIA("llancha", numLlancha);
     }
     public void vaixellsMitga()
     {
@@ -136,9 +135,13 @@ public class Joc
     }
     public void colocarBarcosIA(String tipo, int cantidad)
     {
+        int posVaixellX, posVaixellY;
         switch (tipo)
         {
             case "llancha":
+                    posVaixellX = (int)(1+Math.random()*(tamanyTauler));
+                    posVaixellY = (int)(1+Math.random()*(tamanyTauler));
+                    System.out.println(posVaixellX + " " + posVaixellY);
                 break;
             case "vaixell":
                 break;
@@ -148,5 +151,10 @@ public class Joc
                 break;
                 
         }
+    }
+    public void tiradaJugador()
+    {
+        System.out.println("El tauler ha sigut actualitzat, per favor seleccione la seguent jugada:\n1. Efectuar atac\n2. Visualitzar el tauler\n3. Visualitzar estadistiques del joc");
+        eleccio = entrada.nextInt();
     }
 }
