@@ -1,88 +1,131 @@
 create database Evaluable2;
 use Evaluable2;
 
-Centro:
+
 create table centro(
-codigo_centro int,
+codigo_centro smallint,
 ciudad varchar (25),
 nombre varchar (30),
 constraint centro_pk primary key (codigo_centro));
 
-Bookiers:
+
 create table bookiers(
 dni varchar(9),
 nombre varchar(15),
 apellidos varchar(30),
-id_centro int,
+id_centro smallint,
 constraint bookiers_pk primary key (dni),
 constraint bookiers_fk foreign key (id_centro) references centro(codigo_centro)
 on delete cascade on update cascade);
 
-Tarjetas:
+
 create table tarjetas(
-idtarjeta int,
-dni_bookier varchar(9),
+idtarjeta smallint,
+dni_bookier varchar(9) not null,
 constraint tarejtas_pk primary key (idtarjeta),
 constraint tarjetas_fk foreign key (dni_bookier) references bookiers(dni)
 on delete cascade on update cascade);
 
-BookierEstudiante:
+
 create table bookierEstudiante(
 dni_bookier varchar(9),
-constraint bookierestudiante_pk primary key (dni_bookier)
-on delete cascade, on update cascade),
+constraint bookierestudiante_pk primary key (dni_bookier),
 constraint bookierestudiante_fk foreign key (dni_bookier) references bookiers(dni)
 on delete cascade on update cascade);
 
-Ventas:
+
 create table ventas(
-idventas int,
+idventas mediumint,
 fecha date,
-ip int,
+ip varchar(15),
 constraint ventas_pk primary key (idventas));
 
-EstuVentas:
+
 create table estuventas(
-idestuventas int,
-idventas int,
+idestuventas smallint,
+idventas mediumint,
 dni_bookier varchar(9) not null,
 constraint estuventas_pk primary key (idestuventas),
 constraint estuventas_dni_fk foreign key (dni_bookier) references bookiers(dni)
-on delete cascade, on update cascade,
+on delete cascade on update cascade,
 constraint estuventas_idventa_fk foreign key (idventas) references ventas(idventas)
-on delete set null on update cascade);
+on delete cascade on update cascade);
 
-MatEstudiantes:
+
+create table materiales(
+id_material smallint,
+precio float,
+nombre varchar(50),
+constraint materiales_pk primary key (id_material));
+
+
 create table matestudiantes(
-id_material_estu int,
-constraint matestudiantas_pk primary key (id_material_estu));
+id_material_estu smallint,
+constraint matestudiantes_pk primary key (id_material_estu),
+constraint matestudiantes_fk foreign key (id_material_estu) references materiales(id_material));
 
-Líneas Estudiantes:
-create table lineas_estudiantes(
-n_linea int,
-idestuventas int,
-id_material_estu int not null,
-cantidad int,
+
+create table lineas_estuventas(
+n_linea smallint,
+idestuventas smallint,
+id_material_estu smallint not null,
+cantidad smallint,
 constraint lineas_estudiantas_pk primary key (n_linea, idestuventas),
 constraint lineas_estud_ventas_fk foreign key (idestuventas) references estuventas(idestuventas)
-on delete set null on update cascade,
+on delete cascade on update cascade,
 constraint lineas_estud_material_fk foreign key (id_material_estu) references matestudiantes(id_material_estu)
 on delete cascade on update cascade);
 
-Materiales:
-create table materiales(
-id_material int,
-precio float,
-nombre varchar(15),
-constraint materiales_pk primary key (id_material));
 
-Recomienda:
 create table recomienda_material(
-id_material int,
-id_material_recomendado int,
+id_material smallint,
+id_material_recomendado smallint,
 constraint material_recomendado_pk primary key (id_material, id_material_recomendado),
 constraint material_fk foreign key (id_material) references materiales(id_material)
 on delete cascade on update cascade,
 constraint material_recomendado_fk foreign key (id_material_recomendado) references materiales(id_material)
 on delete cascade on update cascade);
 
+
+Ejercicio 4:
+
+Introducimos los materiales en la tabla "materiales":
+insert into materiales values (101, 14, "bases de datos");
+insert into materiales values (102, 15, "Lenguaje de Marcas");
+insert into materiales values (103, 17, "Diagramas E-R Resueltos");
+insert into materiales values (104, 16, "Diseño Avanzado de Páginas Web");
+
+Introducimos los materiales como materiales de estudiantes en "matestudiantes":
+insert into matestudiantes values (101);
+insert into matestudiantes values (102);
+insert into matestudiantes values (103);
+insert into matestudiantes values (104);
+
+Introducimos el centro al que pertenecera la bookier:
+insert into centro values(15123, "Valencia", "CeedCV");
+
+Introducimos a la estudiante en la tabla "bookiers":
+insert into bookiers values ("24365471P", "María", "Pérez López",15123);
+
+Introducimos a la bookier como estudiante en "bookierestudiante":
+insert into bookierestudiante values ("24365471P");
+
+Introducimos la venta de los dos productos (aunque ambos se harán en una misma venta) en la tabla "ventas":
+insert into ventas values(1542, "2021-09-20", "44:153:0:22");
+
+Introducimos la venta en "estuventas":
+insert into estuventas values(133, 1542, "24365471P");
+
+Una vez creados todos los datos necesarios, creamos la venta en sí en "lineas_estuventas":
+insert into lineas_estuventas values (1, 133, 101, 2);
+insert into lineas_estuventas values (2, 133, 102, 1);
+
+Introducimos ahora la recomendacion de material en "recomienda_material":
+insert into recomienda_material values (101,103);
+insert into recomienda_material values (102,104);
+
+Realizamos la ultima compra:
+insert into ventas values (1601, "2021-10-15", "55:132:86:1");
+insert into estuventas values (134, 1601, "24365471P");
+insert into lineas_estuventas values(1, 134, 104, 1);
+insert into lineas_estuventas values(2, 134, 103, 6);
