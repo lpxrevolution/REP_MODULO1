@@ -66,6 +66,10 @@ public class EnfonaLaFlota
     {
         boolean intents = true;
         tamanyTauler = (entradaConsola("Escriu el tamany del tauler(nombre entre 8 y 20):"))+1;
+        if (tamanyTauler<8&&tamanyTauler>20)
+        {
+            
+        }
         numLlanxa = entradaConsola("Escriu la cantitat de Llanxes:");
         numVaixell = entradaConsola("Escriu la cantitat de Vaixells:");
         numCuirassat = entradaConsola("Escriu la cantitat de Cuirassats:");
@@ -83,7 +87,7 @@ public class EnfonaLaFlota
         }
         while (intents)
         {
-            numIntents = entradaConsola("Escriu la cantitat intents:");
+            numIntents = entradaConsola("Escriu la cantitat intents: (entre "+(Math.round(numVaixellsIA/2))+" y "+(Math.round((tamanyTauler*tamanyTauler)*.6-1))+")");
             if (numIntents>=((tamanyTauler*tamanyTauler)*.6))//Calculem que el numero de intents no sobrepase el 60% de les caselles del tauler
             {
                 System.out.println("El nombre de intents no pot ser tan alt, sería masa fácil");
@@ -92,8 +96,8 @@ public class EnfonaLaFlota
             {
                 System.out.println("El nombre de intents no pot ser tan baig, sería masa difícil");
             }
-            else if (numIntents<numVaixellsIA)//Calculem que el numero de intents supere el nombre de les caselles ocupades per el Vaixells en el tauler
-                System.out.println("El nombre de intents no pot ser mai mes baix que el nombre de caselles que ocupen els vaixells");
+            else if (numIntents<Math.round(numVaixellsIA/2))//Calculem que el numero de intents supere el nombre de les caselles ocupades per el Vaixells en el tauler
+                System.out.println("El nombre de intents no pot ser mai mes baix del 50% del nombre de caselles que ocupen els vaixells");
             else
                 intents=false;
         }
@@ -181,7 +185,7 @@ public class EnfonaLaFlota
         crearCuirassat(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);
         crearPortavions(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);
         
-        actualitzarTauler(taulerIA);
+        mostrarTauler(taulerIA);
     }
     public static void crearLlanxa(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea les Llanxes al tauler
     {
@@ -389,17 +393,6 @@ public class EnfonaLaFlota
             }
         }
     }
-    public static void actualitzarTauler(String tauler[][]) //Funció per a actualizar el tauler
-    {
-        for (int y = 0;y<tamanyTauler;y++)
-        {
-            for (int x = 0;x<tamanyTauler;x++)
-            {
-                System.out.printf("%4s",tauler[y][x]);
-            }
-            System.out.print("\n");
-        }
-    }
     public static int tiradaJugador(int numVaixellsIA, String taulerUI[][]) //Funció amb les opcions que tindrá el jugador en cada tirada
     {
         int eleccio;
@@ -413,7 +406,7 @@ public class EnfonaLaFlota
                 taulerUI[10][1] = "A";
                 break;
             case 2:
-                actualitzarTauler(taulerUI);
+                mostrarTauler(taulerUI);
                 break;
             case 3:
                 break;
