@@ -1,33 +1,30 @@
-
 package enfonalaflota;
 
 import java.util.Scanner;
-
 
 public class EnfonaLaFlota 
 {
     static int opcioElegida, tamanyTauler, numVaixellsIA, numIntents, numLlanxa, numVaixell, numCuirassat, numPortaavions;
     static Scanner entrada = new Scanner(System.in);
     
-    public static void main(String[] args)
+    public static void main(String[] args)//Funcio Main
     {
         String[][] taulerUI;
         String[][] taulerIA;
-        opcioElegida = demanarDades();
-        calculaTauler(opcioElegida);
+        opcioElegida = entradaConsola("Benvingut a Anfonar la Flota.\nElija la dificultad del joc:\n1.Fácil.\n2.Mitjà.\n3.Difícil.\n4.Personalitzat\n5.Eixir");
+        eleccioColocarVaixells(opcioElegida);
         taulerUI = new String[tamanyTauler][tamanyTauler];
         taulerIA = new String[tamanyTauler][tamanyTauler];
-        eleccioColocarVaixells(opcioElegida);
         crearTauler(tamanyTauler, taulerIA);
         crearTauler(tamanyTauler, taulerUI);
         mostrarTauler(taulerUI);
         posicionarVaixellsIA(taulerIA);
         while (numVaixellsIA>0)
         {
-        numVaixellsIA = tiradaJugador(numVaixellsIA);
+        numVaixellsIA = tiradaJugador(numVaixellsIA, taulerUI);
         }
     }
-    public static int entradaConsola(String text) //Funció per a mostrar un mensaje en pantalla y capturar la entrada del usuario (mensaje que es motrará)
+    public static int entradaConsola(String text) //Funció per a mostrar un mensatje en pantalla y capturar la entrada del usuari (mensaje que es motrará)
     {
         System.out.println(text);
         return entrada.nextInt();
@@ -35,30 +32,6 @@ public class EnfonaLaFlota
     public static int nombreAleatori(int min, int max) //Funció per a generar un numbre aleatori comprengut entre dos nombres (nombre mínim, nombre máxim)
     {
         return (int) Math.round((Math.random()*(min-max)+1));
-    }
-    public static int demanarDades()
-    {
-        String text = "Benvingut a Anfonar la Flota.\nElija la dificultad del joc:\n1.Fácil.\n2.Mitjà.\n3.Difícil.\n4.Personalitzat";
-        return entradaConsola(text);
-    }
-    public static void calculaTauler(int opcio)
-    {
-        switch (opcio)
-        {
-            case 4:
-                int opcioB = 0;
-                do
-                {
-                    String text = "Introdueix el tamany del tauler (sols es acepta entre 8 y 20)";
-                    opcioB = entradaConsola(text);
-                }
-                while (opcioB<8||opcioB>20);
-                tamanyTauler = opcioB+1;
-                break;
-            default:
-                tamanyTauler = 11;
-                break;
-        }
     }
     public static void eleccioColocarVaixells(int i)//Funcio que envia per un camí o altre en funció de la opció elegida en el menú (opció elegida)
     {
@@ -78,41 +51,81 @@ public class EnfonaLaFlota
                     break;
                 case 4:
                     System.out.println("Ha elegit joc personalitzat");
+                    crearPartidaPerso();
                     break;
+                case 5:
+                    System.exit(0);
                 default:
                     System.out.println("Elecció incorrecta, torna a intentar");
-                    i = demanarDades();
+                    i = entradaConsola("Benvingut a Anfonar la Flota.\nElija la dificultad del joc:\n1.Fácil.\n2.Mitjà.\n3.Difícil.\n4.Personalitzat");
                     eleccioColocarVaixells(i);
                     break;
             }
+    }
+    public static void crearPartidaPerso()//Demana dades al usuari per a crear la partida personalitzada, dins de un llimits aceptables.
+    {
+        boolean intents = true;
+        tamanyTauler = (entradaConsola("Escriu el tamany del tauler(nombre entre 8 y 20):"))+1;
+        numLlanxa = entradaConsola("Escriu la cantitat de Llanxes:");
+        numVaixell = entradaConsola("Escriu la cantitat de Vaixells:");
+        numCuirassat = entradaConsola("Escriu la cantitat de Cuirassats:");
+        numPortaavions = entradaConsola("Escriu la cantitat de Portaavions:");
+        numVaixellsIA = numLlanxa+numVaixell*3+numCuirassat*4+numPortaavions*5;
+        if (numVaixellsIA>((tamanyTauler*tamanyTauler)*.6))
+        {
+            System.out.println("Has creat molt vaixells per al tauler elegit. (Els vaixells no deuen ocupar mes del 60% del tauler)");
+            crearPartidaPerso();
+        }
+        else if (numVaixellsIA<((tamanyTauler*tamanyTauler)*.15))
+        {
+            System.out.println("Has creat pocs vaixells per al tauler elegit. (Els vaixells deuen ocupar mes del 15% del tauler)");
+            crearPartidaPerso();
+        }
+        while (intents)
+        {
+            numIntents = entradaConsola("Escriu la cantitat intents:");
+            if (numIntents>=((tamanyTauler*tamanyTauler)*.6))//Calculem que el numero de intents no sobrepase el 60% de les caselles del tauler
+            {
+                System.out.println("El nombre de intents no pot ser tan alt, sería masa fácil");
+            }
+            else if (numIntents<=((tamanyTauler*tamanyTauler)*.05))//Calculem que el numero de intents supere el 5% de les caselles del tauler
+            {
+                System.out.println("El nombre de intents no pot ser tan baig, sería masa difícil");
+            }
+            else if (numIntents<numVaixellsIA)//Calculem que el numero de intents supere el nombre de les caselles ocupades per el Vaixells en el tauler
+                System.out.println("El nombre de intents no pot ser mai mes baix que el nombre de caselles que ocupen els vaixells");
+            else
+                intents=false;
+        }
     }
     public static void vaixells(String opcio) //Funció que guardará les opcions de la partida
     {
         switch (opcio)
         {
             case "F":
-                numVaixellsIA = 10;
                 numIntents = 50;
                 numLlanxa = 5;
                 numVaixell = 3;
                 numCuirassat = 1;
                 numPortaavions = 1;
+                tamanyTauler = 11;
+                numVaixellsIA = numLlanxa+numVaixell*3+numCuirassat*4+numPortaavions*5;
                 break;
             case "M":
-                numVaixellsIA = 5;
                 numIntents = 30;
                 numLlanxa = 2;
                 numVaixell = 1;
                 numCuirassat = 1;
                 numPortaavions = 1;
+                tamanyTauler = 11;
+                numVaixellsIA = numLlanxa+numVaixell*3+numCuirassat*4+numPortaavions*5;
                 break;
             case "D":
-                numVaixellsIA = 2;
                 numIntents = 10;
                 numLlanxa = 1;
                 numVaixell = 1;
-                break; 
-            case "P":
+                tamanyTauler = 11;
+                numVaixellsIA = numLlanxa+numVaixell*3+numCuirassat*4+numPortaavions*5;
                 break;
         }
     }  
@@ -168,9 +181,9 @@ public class EnfonaLaFlota
         crearCuirassat(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);
         crearPortavions(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);
         
-        actualitzarTauler(tamanyTauler, taulerIA);
+        actualitzarTauler(taulerIA);
     }
-    public static void crearLlanxa(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])
+    public static void crearLlanxa(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea les Llanxes al tauler
     {
         
         for (int i=numLlanxa; i>0; i--)//Creem les Llanches com son 1x1 no elegim entre horitzontal o vertial
@@ -180,12 +193,10 @@ public class EnfonaLaFlota
             if (taulerIA[posicioVaixellY][posicioVaixellX] == "-")
             {
                 taulerIA[posicioVaixellY][posicioVaixellX] = "L";
-                System.out.println("He creat una Llancha en "+posicioVaixellY+"-"+posicioVaixellX+" Queden "+i+" Llanches");
                 intentsCreacio = 0;
             }
             else
             {
-                System.out.println("En la posició ya existix un vaixell");
                 intentsCreacio++;
                 i++;
                 if (intentsCreacio==50)
@@ -196,7 +207,7 @@ public class EnfonaLaFlota
             }
         }
     }
-    public static void crearVaixell(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])
+    public static void crearVaixell(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea els Vaixells al tauler
     {
         for (int i=numVaixell; i>0;i--)
         {
@@ -206,41 +217,53 @@ public class EnfonaLaFlota
             {
                 while (vaixellColocat==0)
                 {   
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,4);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-")
-                {
-                    taulerIA[posicioVaixellY][posicioVaixellX]="B";
-                    taulerIA[posicioVaixellY+1][posicioVaixellX]="B";
-                    taulerIA[posicioVaixellY+2][posicioVaixellX]="B";
-                    intentsCreacio=0;
-                    vaixellColocat=1;
-                }
-                else
-                    numVaixell++;
-                    intentsCreacio++;
-                    if (intentsCreacio==50)
-                {
-                    System.out.println("No es pot posicionar mes vaixells al tauler");
-                    System.exit(0);
-                }
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,4);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-")
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="B";
+                        taulerIA[posicioVaixellY+1][posicioVaixellX]="B";
+                        taulerIA[posicioVaixellY+2][posicioVaixellX]="B";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                        numVaixell++;
+                        intentsCreacio++;
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
             else
             {
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,4);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-")
-                {
-                    System.out.println("Cree Vaixell horitzontal");
-                    taulerIA[posicioVaixellY][posicioVaixellX]="B";
-                    taulerIA[posicioVaixellY][posicioVaixellX+1]="B";
-                    taulerIA[posicioVaixellY][posicioVaixellX+2]="B";
+                while (vaixellColocat==0)
+                {  
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,4);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-")
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="B";
+                        taulerIA[posicioVaixellY][posicioVaixellX+1]="B";
+                        taulerIA[posicioVaixellY][posicioVaixellX+2]="B";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                        numVaixell++;
+                        intentsCreacio++;
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
         }
     }
-    public static void crearCuirassat(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])
+    public static void crearCuirassat(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea els Cuirassats al tauler
     {
         for (int i=numCuirassat; i>0;i--)
         {
@@ -250,43 +273,59 @@ public class EnfonaLaFlota
             {
                 while (vaixellColocat==0)
                 {   
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,5);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]) == "-")
-                {
-                    taulerIA[posicioVaixellY][posicioVaixellX]="Z";
-                    taulerIA[posicioVaixellY+1][posicioVaixellX]="Z";
-                    taulerIA[posicioVaixellY+2][posicioVaixellX]="Z";
-                    taulerIA[posicioVaixellY+3][posicioVaixellX]="Z";
-                    intentsCreacio=0;
-                    vaixellColocat=1;
-                }
-                else
-                    System.out.println("El lloc está ocupat");
-                    numVaixell++;
-                    intentsCreacio++;
-                    if (intentsCreacio==50)
-                {
-                    System.out.println("No es pot posicionar mes vaixells al tauler");
-                    System.exit(0);
-                }
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,4);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]=="-"))
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="Z";
+                        taulerIA[posicioVaixellY+1][posicioVaixellX]="Z";
+                        taulerIA[posicioVaixellY+2][posicioVaixellX]="Z";
+                        taulerIA[posicioVaixellY+3][posicioVaixellX]="Z";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                    {
+                        numCuirassat++;
+                        intentsCreacio++;
+                    }
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
             else
             {
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,5);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]) == "-")
-                {
-                    taulerIA[posicioVaixellY][posicioVaixellX]="Z";
-                    taulerIA[posicioVaixellY][posicioVaixellX+1]="Z";
-                    taulerIA[posicioVaixellY][posicioVaixellX+2]="Z";
-                    taulerIA[posicioVaixellY][posicioVaixellX+3]="Z";
+                while (vaixellColocat==0)
+                {   
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,4);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY][posicioVaixellX+3]=="-"))
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="Z";
+                        taulerIA[posicioVaixellY][posicioVaixellX+1]="Z";
+                        taulerIA[posicioVaixellY][posicioVaixellX+2]="Z";
+                        taulerIA[posicioVaixellY][posicioVaixellX+3]="Z";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                    {
+                        numCuirassat++;
+                        intentsCreacio++;
+                    }
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
         }
     }
-    public static void crearPortavions(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])
+    public static void crearPortavions(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea els Portaavions al tauler
     {
         for (int i=numPortaavions; i>0;i--)
         {
@@ -296,47 +335,61 @@ public class EnfonaLaFlota
             {
                 while (vaixellColocat==0)
                 {   
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,6);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
-                    System.out.println(posicioVaixellY + " " + posicioVaixellX);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+4][posicioVaixellX]) == "-")
-                {
-                    taulerIA[posicioVaixellY][posicioVaixellX]="P";
-                    taulerIA[posicioVaixellY+1][posicioVaixellX]="P";
-                    taulerIA[posicioVaixellY+2][posicioVaixellX]="P";
-                    taulerIA[posicioVaixellY+3][posicioVaixellX]="P";
-                    taulerIA[posicioVaixellY+4][posicioVaixellX]="P";
-                    
-                    intentsCreacio=0;
-                    vaixellColocat=1;
-                }
-                else
-                    System.out.println("El lloc está ocupat");
-                    numVaixell++;
-                    intentsCreacio++;
-                    if (intentsCreacio==50)
-                {
-                    System.out.println("No es pot posicionar mes vaixells al tauler");
-                    System.exit(0);
-                }
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,5);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,1);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+4][posicioVaixellX]=="-"))
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="P";
+                        taulerIA[posicioVaixellY+1][posicioVaixellX]="P";
+                        taulerIA[posicioVaixellY+2][posicioVaixellX]="P";
+                        taulerIA[posicioVaixellY+3][posicioVaixellX]="P";
+                        taulerIA[posicioVaixellY+4][posicioVaixellX]="P";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                    {
+                        numPortaavions++;
+                        intentsCreacio++;
+                    }
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
             else
             {
-                posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
-                posicioVaixellX = nombreAleatori(tamanyTauler-1,6);
-                if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+4][posicioVaixellX]) == "-")
-                {
-                    taulerIA[posicioVaixellY][posicioVaixellX]="P";
-                    taulerIA[posicioVaixellY][posicioVaixellX+1]="P";
-                    taulerIA[posicioVaixellY][posicioVaixellX+2]="P";
-                    taulerIA[posicioVaixellY][posicioVaixellX+3]="P";
-                    taulerIA[posicioVaixellY][posicioVaixellX+4]="P";
+                while (vaixellColocat==0)
+                {   
+                    posicioVaixellY = nombreAleatori(tamanyTauler-1,1);
+                    posicioVaixellX = nombreAleatori(tamanyTauler-1,5);
+                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY][posicioVaixellX+3]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+4]=="-"))
+                    {
+                        taulerIA[posicioVaixellY][posicioVaixellX]="P";
+                        taulerIA[posicioVaixellY][posicioVaixellX+1]="P";
+                        taulerIA[posicioVaixellY][posicioVaixellX+2]="P";
+                        taulerIA[posicioVaixellY][posicioVaixellX+3]="P";
+                        taulerIA[posicioVaixellY][posicioVaixellX+4]="P";
+                        intentsCreacio=0;
+                        vaixellColocat=1;
+                    }
+                    else
+                    {
+                        numPortaavions++;
+                        intentsCreacio++;
+                    }
+                        if (intentsCreacio==50)
+                    {
+                        System.out.println("No es pot posicionar mes vaixells al tauler");
+                        System.exit(0);
+                    }
                 }
             }
         }
     }
-    public static void actualitzarTauler(int tamanyTauler, String tauler[][]) //Funció per a actualizar el tauler
+    public static void actualitzarTauler(String tauler[][]) //Funció per a actualizar el tauler
     {
         for (int y = 0;y<tamanyTauler;y++)
         {
@@ -347,7 +400,7 @@ public class EnfonaLaFlota
             System.out.print("\n");
         }
     }
-    public static int tiradaJugador(int numVaixellsIA) //Funció amb les opcions que tindrá el jugador en cada tirada
+    public static int tiradaJugador(int numVaixellsIA, String taulerUI[][]) //Funció amb les opcions que tindrá el jugador en cada tirada
     {
         int eleccio;
         Scanner entrada = new Scanner(System.in);
@@ -357,8 +410,10 @@ public class EnfonaLaFlota
         {
             case 1:
                 numVaixellsIA--;
+                taulerUI[10][1] = "A";
                 break;
             case 2:
+                actualitzarTauler(taulerUI);
                 break;
             case 3:
                 break;
