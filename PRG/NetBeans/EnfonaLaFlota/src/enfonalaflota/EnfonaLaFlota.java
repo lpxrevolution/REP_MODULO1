@@ -1,12 +1,16 @@
 package enfonalaflota;
-
+/**
+ * 
+ */
 import java.util.Scanner;
-
+/**
+ * 
+ * @author rbnre
+ */
 public class EnfonaLaFlota 
 {
     static int opcioElegida, tamanyTauler, numVaixellsIA, numIntents, numLlanxa, numVaixell, numCuirassat, numPortaavions; //Creem les variables int que anem a necesitar
     static Scanner entrada = new Scanner(System.in); //Creem la variable Scanner per a la entrada de dades per part del usuari
-    
     public static void main(String[] args)//Funcio Main
     {
         String[][] taulerUI; //Matriu del tauler que visualitza el jugador
@@ -15,6 +19,7 @@ public class EnfonaLaFlota
         eleccioColocarVaixells(opcioElegida); //Cridem la funcio "eleccioColocarVaixells" pasantli el valor opcioElegida
         taulerUI = new String[tamanyTauler][tamanyTauler]; //Creem la matriu del usuari amb els tamany en els eixos X i Y de tamanyTauler
         taulerIA = new String[tamanyTauler][tamanyTauler]; //Creem la matriu de la IA amb els tamany en els eixos X i Y de tamanyTauler
+        System.out.println(tamanyTauler);
         crearTauler(tamanyTauler, taulerIA); //Plenem la matriu del usuari
         crearTauler(tamanyTauler, taulerUI); //Plenem la matriu de la IA   
         mostrarTauler(taulerUI); //Mostrem al usuari la matriu UI
@@ -22,6 +27,10 @@ public class EnfonaLaFlota
         while (numVaixellsIA>0) //Mentre la IA tinga una casella amb algun vaixell estarem en aquest bucle
             tiradaJugador(numVaixellsIA, taulerUI, taulerIA); //La variable se iguala al resultat retornat per le funció (pasem el numero de vaixells que te la IA, el tauler del usuari i el tauler de la IA)
         System.out.println("Has afonat tots els vaixells de la IA.\nEnhorabona!");
+        System.out.println("El vostre tauler:");
+        mostrarTauler(taulerUI);
+        System.out.println("El tauler de la IA");
+        mostrarTauler(taulerIA);
     }
     public static int entradaConsola(String text) //Funció per a mostrar un mensatje en pantalla y capturar la entrada del usuari (mensaje que es motrará)
     {
@@ -64,34 +73,35 @@ public class EnfonaLaFlota
     public static void crearPartidaPerso()//Demana dades al usuari per a crear la partida personalitzada, dins de un llimits aceptables.
     {
         boolean intents = true;
-        tamanyTauler = (entradaConsola("Escriu el tamany del tauler(nombre entre 4 y 10):"))+1;
-        if (tamanyTauler<4||tamanyTauler>9)//Asegurem que el usuari cree un tauler dins dels llimits establits
+        tamanyTauler = (entradaConsola("Escriu el tamany del tauler(nombre entre 4 y 20):"))+1;
+        if (tamanyTauler<3||tamanyTauler>21)//Asegurem que el usuari cree un tauler dins dels llimits establits
         {
             System.out.println("El tamany del tauler está fora dels llimits");
+            crearPartidaPerso();
         }
         numLlanxa = entradaConsola("Escriu la cantitat de Llanxes:");           //demanem al usuari les dades del vaixells
         numVaixell = entradaConsola("Escriu la cantitat de Vaixells:");         //
         numCuirassat = entradaConsola("Escriu la cantitat de Cuirassats:");     //
         numPortaavions = entradaConsola("Escriu la cantitat de Portaavions:");  //
         numVaixellsIA = numLlanxa+numVaixell*3+numCuirassat*4+numPortaavions*5; //Calculem les caselles totals ocupades per els vaixells
-        if (numVaixellsIA>((tamanyTauler*tamanyTauler)*.6)) //Asegurem que les vaixell no ocupen mes del 60% del tauler
+        if (numVaixellsIA>Math.round(((tamanyTauler-1)*(tamanyTauler-1))*.6)) //Asegurem que les vaixell no ocupen mes del 60% del tauler
         {
             System.out.println("Has creat molt vaixells per al tauler elegit. (Els vaixells no deuen ocupar mes del 60% del tauler)");
             crearPartidaPerso();
         }
-        else if (numVaixellsIA<((tamanyTauler*tamanyTauler)*.15)) ////Asegurem que les vaixell no ocupen menys del 15% del tauler
+        else if (numVaixellsIA<Math.round(((tamanyTauler-1)*(tamanyTauler-1))*.15)) ////Asegurem que les vaixell no ocupen menys del 15% del tauler
         {
             System.out.println("Has creat pocs vaixells per al tauler elegit. (Els vaixells deuen ocupar mes del 15% del tauler)");
             crearPartidaPerso();
         }
         while (intents) //Bucle del cuál sols eixim cuant se introdueixca un valor per a "intents" valit
         {
-            numIntents = entradaConsola("Escriu la cantitat intents: (entre "+(Math.round(numVaixellsIA/2))+" y "+(Math.round((tamanyTauler*tamanyTauler)*.6-1))+")");
-            if (numIntents>=((tamanyTauler*tamanyTauler)*.6))//Calculem que el numero de intents no sobrepase el 60% de les caselles del tauler
+            numIntents = entradaConsola("Escriu la cantitat intents: (entre "+(Math.round(numVaixellsIA/2))+" y "+(Math.round(((tamanyTauler-1)*(tamanyTauler-1))*.6-1))+")");
+            if (numIntents>=(((tamanyTauler-1)*(tamanyTauler-1))*.6))//Calculem que el numero de intents no sobrepase el 60% de les caselles del tauler
             {
                 System.out.println("El nombre de intents no pot ser tan alt, sería masa fácil");
             }
-            else if (numIntents<=((tamanyTauler*tamanyTauler)*.05))//Calculem que el numero de intents supere el 5% de les caselles del tauler
+            else if (numIntents<=(((tamanyTauler-1)*(tamanyTauler-1))*.05))//Calculem que el numero de intents supere el 5% de les caselles del tauler
             {
                 System.out.println("El nombre de intents no pot ser tan baig, sería masa difícil");
             }
@@ -145,7 +155,7 @@ public class EnfonaLaFlota
     }
     public static void crearTauler(int tamanyTauler, String tauler[][])//Creació del tauler tant de la IA com de la UI (tamany del tauler y matriu del tauler)
     {
-        String[] vectorABC = {" ","A","B","C","D","E","F","G","H","I","J"}; //Vector en el que almacenem les lletres del Abecedari per a colocarles a la matriu
+        String[] vectorABC = {" ","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T"}; //Vector en el que almacenem les lletres del Abecedari per a colocarles a la matriu
         for (int y = 0;y<tamanyTauler;y++) //Crea el tauler elegit amb el tamany que hem pasat a la funció
         {
             for (int x = 0;x<tamanyTauler;x++)
@@ -175,16 +185,13 @@ public class EnfonaLaFlota
     }
     public static void posicionarVaixellsIA(String taulerIA[][])//Funció per a colocar els Vaixells de la IA en el tauler
     {   
-        int posicioVaixellY=0; //Posiccio Y en la que es creará en vaixell
-        int posicioVaixellX=0; //Posiccio X en la que es creará en vaixell
+        int posicioVaixellY = 0; //Posiccio Y en la que es creará en vaixell
+        int posicioVaixellX = 0; //Posiccio X en la que es creará en vaixell
         int intentsCreacio = 0; //Cantitat de intents al crear un vaixell
-                
         crearLlanxa(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);        //Cridem les funcions que crearan cada tipus de vaixell
         crearVaixell(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);       //
         crearCuirassat(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);     //
         crearPortavions(posicioVaixellY, posicioVaixellX, intentsCreacio, taulerIA);    //
-        
-                mostrarTauler(taulerIA);
     }
     public static void crearLlanxa(int posicioVaixellY, int posicioVaixellX, int intentsCreacio, String taulerIA[][])//Funció que crea les Llanxes al tauler
     {
@@ -193,7 +200,7 @@ public class EnfonaLaFlota
         {
             posicioVaixellY = nombreAleatori(1,tamanyTauler-1); //crea una coordenada YX aleatoria dins del tauler 
             posicioVaixellX = nombreAleatori(1,tamanyTauler-1); //
-            if (taulerIA[posicioVaixellY][posicioVaixellX] == "-")
+            if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-"))
             {
                 taulerIA[posicioVaixellY][posicioVaixellX] = "L";
                 intentsCreacio = 0; //Com hem conseguir posicionar el vaixell, resetegem el contaor de intents de creació.
@@ -222,7 +229,7 @@ public class EnfonaLaFlota
                 {   
                     posicioVaixellY = nombreAleatori(3,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(1,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-") //Ens asegurem que les coordenades que va a ocupar el vaixell estiguen disponibles
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+1][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+2][posicioVaixellX].equals("-")) //Ens asegurem que les coordenades que va a ocupar el vaixell estiguen disponibles
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="B";
                         taulerIA[posicioVaixellY+1][posicioVaixellX]="B";
@@ -246,7 +253,7 @@ public class EnfonaLaFlota
                 {  
                     posicioVaixellY = nombreAleatori(1,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(3,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-")
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+1].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+2].equals("-"))
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="B";
                         taulerIA[posicioVaixellY][posicioVaixellX+1]="B";
@@ -278,7 +285,7 @@ public class EnfonaLaFlota
                 {   
                     posicioVaixellY = nombreAleatori(4,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(1,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]=="-"))
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+1][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+2][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+3][posicioVaixellX].equals("-"))
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="Z";
                         taulerIA[posicioVaixellY+1][posicioVaixellX]="Z";
@@ -305,7 +312,7 @@ public class EnfonaLaFlota
                 {   
                     posicioVaixellY = nombreAleatori(1,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(4,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY][posicioVaixellX+3]=="-"))
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+1].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+2].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+3].equals("-"))
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="Z";
                         taulerIA[posicioVaixellY][posicioVaixellX+1]="Z";
@@ -340,7 +347,7 @@ public class EnfonaLaFlota
                 {   
                     posicioVaixellY = nombreAleatori(5,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(1,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+1][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+2][posicioVaixellX]) == "-"&&(taulerIA[posicioVaixellY+3][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY+4][posicioVaixellX]=="-"))
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+1][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+2][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+3][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY+4][posicioVaixellX].equals("-"))
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="P";
                         taulerIA[posicioVaixellY+1][posicioVaixellX]="P";
@@ -368,7 +375,7 @@ public class EnfonaLaFlota
                 {   
                     posicioVaixellY = nombreAleatori(1,tamanyTauler-1);
                     posicioVaixellX = nombreAleatori(5,tamanyTauler-1);
-                    if ((taulerIA[posicioVaixellY][posicioVaixellX]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+1]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+2]) == "-"&&(taulerIA[posicioVaixellY][posicioVaixellX+3]=="-")&&(taulerIA[posicioVaixellY][posicioVaixellX+4]=="-"))
+                    if (taulerIA[posicioVaixellY][posicioVaixellX].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+1].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+2].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+3].equals("-")&&taulerIA[posicioVaixellY][posicioVaixellX+4].equals("-"))
                     {
                         taulerIA[posicioVaixellY][posicioVaixellX]="P";
                         taulerIA[posicioVaixellY][posicioVaixellX+1]="P";
@@ -396,7 +403,7 @@ public class EnfonaLaFlota
     {
         String coordenada;
         Scanner entrada = new Scanner(System.in);
-        opcioElegida = entradaConsola("Queden: "+numIntents +" Intents"+"\nQueden: "+numVaixellsIA+" Caselles de vaixells"+"\nEl tauler ha sigut actualitzat, per favor seleccione la seguent jugada:\n1. Efectuar atac\n2. Visualitzar el tauler\n3. Visualitzar estadistiques del joc\n4. Eixir de la partida.");
+        opcioElegida = entradaConsola("Queden: "+numIntents +" Intents"+"\nQueden: "+numVaixellsIA+" Caselles de vaixells"+"\nEl tauler ha sigut actualitzat, per favor seleccione la seguent jugada:\n1. Efectuar atac\n2. Visualitzar el tauler\n9. Eixir de la partida.");
         switch (opcioElegida)
         {
             case 1:
@@ -404,17 +411,20 @@ public class EnfonaLaFlota
                 coordenada = entrada.nextLine(); //Almacenem les coordenades introduïdes per el usuari
                 comprobarCoordenada(coordenada, taulerIA, taulerUI); //Cridem la funció i li pasem les coordenades
                 if (numIntents == 0)
-                    System.out.println("Has esgotat els intents y no has afonat els vaixells.\nHas perdut!");                    
+                {
+                    System.out.println("Has esgotat els intents y no has afonat els vaixells.\nHas perdut!");  
+                    mostrarTauler(taulerIA);
+                    System.exit(0);
+                }
                 break;
             case 2:
                 mostrarTauler(taulerUI);
-                mostrarTauler(taulerIA);
                 break;
-            case 3:
-                break;
-            case 4:
+            case 9:
                 System.exit(0);
                 break;
+            case 0:
+                mostrarTauler(taulerIA); //En modus de cheat, el 0 mostrará el tauler de la IA
         }
         return numVaixellsIA;
     }
@@ -422,41 +432,68 @@ public class EnfonaLaFlota
     {
         int coorY = 0; //Almacenem les coordenades Y i X
         int coorX = 0; //
-        for (int i = 1; i<tamanyTauler;i++) //Busquem amb el primer digit introduït per el usuari
-        {
-            
-            if (coor.charAt(0) == taulerIA[i][0].charAt(0))
-                coorY = i;
-            else if (coor.charAt(0) == taulerIA[0][i].charAt(0))//Aques "else if" ens permet que el usuari puga posar les coordenades desitjades en cualsevol ordre, ej. A8 o 8A
-                coorX = i;
-        }
-       for (int i = 0; i<tamanyTauler;i++) //Busquem amb el segon digit introduït per el usuari
-        {
-            if (coor.charAt(1) == taulerIA[0][i].charAt(0))
-                coorX = i;
-            else if (coor.charAt(1) == taulerIA[i][0].charAt(0))
-                coorY = i;
-        }
-       if (coorY!=0&&coorX!=0)
-           atac(coorY, coorX, taulerIA, taulerUI);
+            if (coor.length()==2) //Si el usuari posa coordandes de dos digints com A8
+            {
+                for (int i = 0; i<tamanyTauler;i++) //Busquem amb el primer digit introduït per el usuari
+                {
+                    if (coor.charAt(0) == taulerIA[i][0].charAt(0))
+                    {
+                        String coordX = (coor.valueOf(coor.charAt(1))); //Com sabem que el primer char que ha introduit el usuari es la coordenada Y que son les lletres, creem un string al que li pasem el valor del segon char
+                        coorY = i;
+                        if(Integer.parseInt(coordX)+1 <= taulerIA.length) //Pasem el String coordX3 a int i se asegurem que no supera el tamany del tauler
+                            coorX = Integer.parseInt(coordX)+1;
+                     }
+                    else if (coor.charAt(0) == taulerIA[0][i].charAt(0))//Aques "else if" ens permet que el usuari puga posar les coordenades desitjades en cualsevol ordre, ej. A8 o 8A
+                        coorX = i;
+                    else
+                    {
+                        if (coor.charAt(1) == taulerIA[0][i].charAt(0))
+                            coorX = i;
+                        else if (coor.charAt(1) == taulerIA[i][0].charAt(0))
+                            coorY = i;
+                    }
+                }
+            }
+            else if (coor.length()==3&&tamanyTauler>11)//Si el usuari posa coordandes de tres digints com A12 y que el tauler siga major a 10x10
+                for (int i = 0; i<tamanyTauler;i++) //Busquem amb el primer digit introduït per el usuari
+                {
+                    if (coor.charAt(0) == taulerIA[i][0].charAt(0)) //Busquem si el primer digit coincideix amb la la fila 0, que son les lletres
+                    {
+                        coorY = i;
+                        String coordX3 = (coor.valueOf(coor.charAt(1))+coor.valueOf(coor.charAt(2))); //Guardem en el String ell chars corresponents a les posicions 1 i 2 de les coordenades introduïdes per el usuari
+                        if(Integer.parseInt(coordX3)+1 <= taulerIA.length) //Pasem el String coordX3 a int i se asegurem que no supera el tamany del tauler
+                            coorX = Integer.parseInt(coordX3)+1; //Asignem el int de coordX3 a coorX que es la coordenada que enviarem, sumem 1 per que els nombres en el tauler estan correguts una posició
+                    }
+                    else if (coor.charAt(2) == taulerIA[i][0].charAt(0)) //Si no coincideix, se enten que el usuari ha posat les coordenades al contrari i es guardaran al contrari també
+                    {
+                        coorY = i;
+                        String coordX3 = (coor.valueOf(coor.charAt(0))+coor.valueOf(coor.charAt(1))); //Guardem en el String ell chars corresponents a les posicions 0 i 1 de les coordenades introduïdes per el usuari
+                        if(Integer.parseInt(coordX3)+1 <= taulerIA.length)
+                            coorX = Integer.parseInt(coordX3)+1;
+                    }         
+                }
+       if (coorY!=0&&coorX!=0) //Asegurem que les funcions anteriors han funcionat y shan guardat les coordenades
+           atac(coorY, coorX, taulerIA, taulerUI); //Amb les coordenades, cridem la funcio de atac (coordenada Y, coordenada X, i pasem els dos taulers)
+       else //Si alguna de les coordenades es 0, el resultat no es valid
+       {
+            System.out.println("La coordenada no es valida");
+       }
     }
     public static void atac(int Y, int X, String tauler[][],String taulerUI[][])
     {
-        if (tauler[Y][X] == "-")
+        if (tauler[Y][X].equals("-"))//tauler[Y][X] == "-")
         {
             System.out.println("Has fallat, el tir ha caigut al aigüa");
-            tauler[Y][X] = "A";
             taulerUI[Y][X] = "A";
             numIntents--;
         }
-        else if (tauler[Y][X] == "A"||tauler[Y][X] == "T")
+        else if (tauler[Y][X].equals("A")||tauler[Y][X].equals("T"))
         {
             System.out.println("Ya habíes tirat en aquesta coordenada");
         }
         else
         {
             System.out.println("Bona puntaría!! has donat a un vaixell");
-            tauler[Y][X] = "T";
             taulerUI[Y][X] = "T";
             numVaixellsIA --;
         }
