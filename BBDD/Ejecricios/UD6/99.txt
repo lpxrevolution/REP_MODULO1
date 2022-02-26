@@ -1,0 +1,27 @@
+1 
+2 SELECT codigo AS COD, tipo AS TIPO, color AS COLOR, premio AS PREMIO FROM maillot;
+3 SELECT dorsal AS DORSAL, nombre AS NOMBRE FROM ciclista WHERE edad<=25;
+4 SELECT nompuerto AS NOMPUERTO, altura AS ALTURA FROM puerto WHERE categoria='E';
+5 SELECT netapa AS NETAPA FROM etapa WHERE salida=llegada;
+6 SELECT count(*) FROM ciclista WHERE edad>25;
+7 SELECT COUNT(*) FROM equipo;
+8 SELECT AVG(edad) FROM ciclista;
+9 SELECT MAX(altura) AS Altura_Maxima, MIN(altura) AS ALtura_Minima FROM puerto;
+10 SELECT p.nompuerto AS NOMBRE_Puerto, p.categoria AS CATEGORIA FROM puerto p, ciclista c WHERE p.dorsal=c.dorsal AND c.nomeq='Banesto' GROUP BY nompuerto ORDER BY p.categoria;
+11 SELECT p.nompuerto AS Nombre_Puerto, e.netapa AS Numero_Etapa, e.km AS KM FROM puerto p, etapa e WHERE p.netapa=e.netapa ORDER BY e.netapa DESC;
+12 SELECT eq.nomeq AS Nombre_Equipo, eq.director AS Director FROM equipo eq, ciclista c WHERE eq.nomeq=c.nomeq AND c.edad>33 GROUP BY Director ORDER BY Nombre_Equipo;
+13 SELECT DISTINCT c.nombre AS Nombre, m.color AS Color FROM ciclista c, maillot m, llevar ll WHERE c.dorsal=ll.dorsal AND ll.codigo=m.codigo ORDER BY nombre;
+14 SELECT DISTINCT c.nombre, e.netapa FROM ciclista c, etapa e, maillot m, llevar ll WHERE m.codigo=ll.codigo AND ll.dorsal=c.dorsal AND e.dorsal=c.dorsal AND m.color='Amarillo';
+15 SELECT e2.netapa FROM etapa e1, etapa e2 WHERE e1.llegada<>e2.salida AND e2.netapa=e1.netapa+1;
+16 SELECT e.netapa AS Etapa, e.salida AS Salida FROM etapa e WHERE e.netapa NOT IN (SELECT netapa FROM puerto);
+17 SELECT AVG(edad) AS Edad_Media FROM ciclista WHERE dorsal IN (SELECT dorsal FROM etapa);
+18 SELECT nompuerto AS Nombre_Puerto FROM puerto WHERE altura >(SELECT AVG(altura) FROM puerto);
+19 SELECT e.salida, e.llegada FROM etapa e, puerto p WHERE e.netapa=p.netapa AND pendiente=(SELECT MAX(pendiente) FROM puerto);
+20 SELECT c.dorsal, nombre FROM ciclista c, puerto WHERE puerto.dorsal=c.dorsal AND puerto.altura=(SELECT MAX(altura) FROM puerto);
+21 SELECT nombre FROM ciclista WHERE edad=(SELECT min(edad) FROM ciclista);
+22 SELECT c.nombre FROM ciclista c, etapa e WHERE c.dorsal=e.dorsal AND c.edad=(SELECT MIN(c2.edad) FROM ciclista c2, etapa e2 WHERE c2.dorsal=e2.dorsal);
+23 SELECT c.nombre FROM ciclista c WHERE 1<(SELECT COUNT(*)FROM puerto p WHERE p.dorsal=c.dorsal);
+24 SELECT p.netapa FROM puerto p WHERE NOT EXISTS (SELECT * FROM puerto p2 WHERE p2.altura<=700 AND p.netapa=p2.netapa) GROUP BY p.netapa;
+25 SELECT e.nomeq, e.director FROM equipo e WHERE NOT EXISTS (SELECT * FROM ciclista c WHERE c.nomeq=e.nomeq AND c.edad<=25);
+26 SELECT c.dorsal, c.nombre FROM ciclista c, etapa e WHERE c.dorsal=e.dorsal AND NOT EXISTS (SELECT * FROM etapa e2 WHERE e2.dorsal=c.dorsal AND e2.km<=170)GROUP BY c.dorsal;
+27 
