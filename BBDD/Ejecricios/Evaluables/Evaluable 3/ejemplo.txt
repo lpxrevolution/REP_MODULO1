@@ -1,0 +1,3 @@
+SELECT c.nombrecliente, sum(dp.cantidad*dp.preciounidad) AS unidades 
+FROM clientes c, detallepedidos dp, pedidos p
+WHERE c.codigocliente=p.codigocliente AND p.codigopedido=dp.codigopedido GROUP BY c.nombrecliente;
