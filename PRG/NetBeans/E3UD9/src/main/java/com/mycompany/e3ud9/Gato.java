@@ -12,7 +12,13 @@ public class Gato extends Mascotas
 {
     String color;
     boolean peloLargo;
-    
+    public Gato(String nom, int e, String est, String fechaNac, String col, boolean peloLar)
+    {
+        super(nom, e, est, fechaNac);
+        color = col;
+        peloLargo = peloLar;
+        
+    }
     public void muestra()
     {
         

@@ -9,6 +9,13 @@ public class Canario extends Aves
     String color;
     boolean canta;
     
+    public Canario(String nom, int e, String est, String fechaNac, boolean pic, boolean vuel, String col, boolean cant)
+    {
+        super(nom, e, est, fechaNac, pic, vuel);
+        color = col;
+        canta = cant;
+    }
+    
     public void volar()
     {
         

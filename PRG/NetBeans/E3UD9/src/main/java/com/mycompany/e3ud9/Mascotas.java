@@ -6,7 +6,13 @@ public abstract class Mascotas
    int edad;
    String estado;
    String fechaNacimiento;
-   
+   public Mascotas(String nom, int e, String est, String fechaNac)
+   {
+       nombre = nom;
+       edad = e;
+       estado = est;
+       fechaNacimiento = fechaNac;
+   }
    abstract void muestra();
    abstract void cumpleanyos();
    abstract void morir();

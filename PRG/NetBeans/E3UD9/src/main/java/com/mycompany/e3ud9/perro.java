@@ -8,6 +8,12 @@ public class perro extends Mascotas
 {
     String raza;
     boolean pulgas;
+    public perro(String nom, int e, String est, String fechaNac, String raza, boolean pulg)
+    {
+        super(nom, e, est, fechaNac);
+        this.raza = raza;
+        pulgas = pulg;
+    }
     public void muestra()
     {
         
