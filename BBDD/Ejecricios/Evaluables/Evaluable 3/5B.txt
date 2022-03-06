@@ -1,0 +1,1 @@
+select d.dni as "Dawer (DNI)", d.apellidos AS "Dawer (Apellidos)", (SELECT count(m.idmedio)) AS "Numero de medios" from dawers d, medios_de_pago m where d.dni=m.dni AND d.apellidos like "%a" OR d.apellidos LIKE "%e" OR d.apellidos LIKE "%i" OR d.apellidos LIKE "%o" OR d.apellidos LIKE "%u";
