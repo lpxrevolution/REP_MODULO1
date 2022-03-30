@@ -20,8 +20,15 @@ public class Main {
         seleccionMenu(mostrarMenu("Elige una opción: "
                                 + "\n1. Mostrar las Mascotas del Inventario."
                                 + "\n2. Mostrar los datos de un animal concreto"
-                                + "\n3. Mostrar edades."), inventario, it);
+                                + "\n3. Mostrar todos los animales."), inventario, it);
         
+    }
+    public static int mostrarMenu(String mensaje)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(mensaje);
+        int in = sc.nextInt();
+        return in;
     }
     public static void seleccionMenu(int opcion, ArrayList inventario,Iterator it)
     {
@@ -34,22 +41,16 @@ public class Main {
                 mostrarAnimal(mostrarMenuTxt("Indique a continuacion el nombre del animal del que desee la informacion:"), inventario, it);
                 break;
             case 3:
-                mostrarEdad(mostrarMenu("Elige las edad de que animal quieres:\n1.Perro.\n2.Gato.\n3.Loro.\n4.Canario."), inventario, it);
+                mostrarDatos(inventario, it);
                 break;
             case 4:
+                anadirAnimal(mostrarMenuTxt("Indique que especie quiere añadir al inventario"), inventario, it);
                 break;
             default:
-                mostrarMensaje("Ninguna opción valida elegida, vuelva a intentarlo.");
+                System.out.println("Ninguna opción valida elegida, vuelva a intentarlo.");
                 break;
                         
         }
-    }
-    public static int mostrarMenu(String mensaje)
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(mensaje);
-        int in = sc.nextInt();
-        return in;
     }
     public static String mostrarMenuTxt(String mensaje)
     {
@@ -58,15 +59,25 @@ public class Main {
         String in = sc.nextLine();
         return in;
     }
-    public static void mostrarMensaje(String mensaje)
+    public static boolean mostrarMenuBool(String mensaje)
     {
+        Scanner sc = new Scanner(System.in);
         System.out.println(mensaje);
+        boolean in = sc.nextBoolean();
+        return in;
     }
+    public static int mostrarMenuInt(String mensaje)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(mensaje);
+        int in = sc.nextInt();
+        return in;
+    }     
     public static void mostrarInventario(ArrayList lista,Iterator it)
     {
         if (lista.size() == 0)
             {
-                mostrarMensaje("El inventario está vacío");
+                System.out.println("El inventario está vacío");
             }
         else
         {
@@ -87,44 +98,65 @@ public class Main {
             }
         }
     }
-    public static void mostrarEdad(int opcion,ArrayList inventario, Iterator it)
+    public static void mostrarDatos(ArrayList inventario, Iterator it)
     {
         int i = 0;
         Mascotas m;
         for (it = inventario.iterator(); it.hasNext();)
             {
                 m = (Mascotas)it.next();
-                switch (opcion)
-                {
-                    case 1:
-                        if (m instanceof perro)
-                        {
-                            System.out.println("En la posicion "+i + " hay un perro y su edad es: "+ m.edad);
-                        }
-                        break;
-                    case 2:
-                        if (m instanceof Gato)
-                        {
-                            System.out.println("En la posicion "+i + " hay un gato y su edad es: "+ m.edad);
-                        }
-                        break;
-                    case 3:
-                        if (m instanceof Loro)
-                        {
-                            System.out.println("En la posicion "+i + " hay un loro");
-                        }
-                        break;
-                    case 4:
-                        if (m instanceof Canario)
-                        {
-                            System.out.println("En la posicion "+i + " hay un canario");
-                        }
-                        break;
-                    default:
-                        break;
-                }
+                 if (m instanceof perro)
+                    imprimirXAnimal("perro", m);
+                else if (m instanceof Gato)
+                    imprimirXAnimal("gato", m);
+                else if (m instanceof Loro)
+                    imprimirXAnimal("loro",m);
+                else if (m instanceof Canario)
+                    imprimirXAnimal("canario", m);  
                 i++;
             }
+    }
+    public static void imprimirXAnimal(String animal, Mascotas m)
+    {
+        switch(animal)
+        {
+            case "perro":
+                System.out.println("Se ha encontrado el animal de la especie Perro:"
+                                    +"\nNombre: "+m.nombre
+                                    +"\nEdad: "+m.edad
+                                    +"\nEstado: "+m.estado
+                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
+                                    +"\nRaza: "+((perro) m).raza
+                                    +"\nTiene Pulgas: "+((perro) m).pulgas);
+                break;
+            case "gato":
+                System.out.println("Se ha encontrado el animal de la especie Gato:"
+                                    +"\nNombre: "+m.nombre
+                                    +"\nEdad: "+m.edad
+                                    +"\nEstado: "+m.estado
+                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
+                                    +"\nColor: "+((Gato) m).color
+                                    +"\nPelo Largo: "+((Gato) m).peloLargo);
+                break;
+            case "loro":
+                System.out.println("Se ha encontrado el animal de la especie Loro:"
+                                    +"\nNombre: "+m.nombre
+                                    +"\nEdad: "+m.edad
+                                    +"\nEstado: "+m.estado
+                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
+                                    +"\nOrgien: "+((Loro) m).origen
+                                    +"\nHabla: "+((Loro) m).habla);
+                break;
+            case "canario":
+                System.out.println("Se ha encontrado el animal de la especie Canario:"
+                                    +"\nNombre: "+m.nombre
+                                    +"\nEdad: "+m.edad
+                                    +"\nEstado: "+m.estado
+                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
+                                    +"\nColor: "+((Canario) m).color
+                                    +"\nCanta: "+((Canario) m).canta);
+                break;
+        }
     }
     public static void mostrarAnimal(String nombre, ArrayList lista, Iterator it)
     {   
@@ -136,41 +168,38 @@ public class Main {
             if (m.nombre.equals(nombre))
             {
                 if (m instanceof perro)
-                    System.out.println("Se ha encontrado el animal:"
-                                    +"\nNombre: "+m.nombre
-                                    +"\nEdad: "+m.edad
-                                    +"\nEstado: "+m.estado
-                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
-                                    +"\nRaza: "+((perro) m).raza
-                                    +"\nTiene Pulgas: "+((perro) m).pulgas);
+                    imprimirXAnimal("perro", m);
                 else if (m instanceof Gato)
-                    System.out.println("Se ha encontrado el animal:"
-                                    +"\nNombre: "+m.nombre
-                                    +"\nEdad: "+m.edad
-                                    +"\nEstado: "+m.estado
-                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
-                                    +"\nColor: "+((Gato) m).color
-                                    +"\nPelo Largo: "+((Gato) m).peloLargo);
+                    imprimirXAnimal("gato", m);
                 else if (m instanceof Loro)
-                    System.out.println("Se ha encontrado el animal:"
-                                    +"\nNombre: "+m.nombre
-                                    +"\nEdad: "+m.edad
-                                    +"\nEstado: "+m.estado
-                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
-                                    +"\nOrgien: "+((Loro) m).origen
-                                    +"\nHabla: "+((Loro) m).habla);
+                    imprimirXAnimal("loro",m);
                 else if (m instanceof Canario)
-                    System.out.println("Se ha encontrado el animal:"
-                                    +"\nNombre: "+m.nombre
-                                    +"\nEdad: "+m.edad
-                                    +"\nEstado: "+m.estado
-                                    +"\nFecha de Nacimiento: "+m.fechaNacimiento
-                                    +"\nColor: "+((Canario) m).color
-                                    +"\nCanta: "+((Canario) m).canta);
+                    imprimirXAnimal("canario", m);
             }
             else if (i==lista.size())
                 System.out.println("No se ha encontrado el animal buscado.");
         i++;
+        }
+    }
+    public static void anadirAnimal(String animal, ArrayList lista, Iterator it)
+    {
+        Mascotas m;
+        switch(animal)
+        {
+            case "perro":
+                lista.add(new perro(mostrarMenuTxt("Indique el nombre del perro:"), 
+                                    mostrarMenuInt("Indique la edad del perro:"),
+                                    "", "", "", true));
+                break;
+            case "gato":
+                System.out.println("Se ha encontrado el animal de la especie Gato:");
+                break;
+            case "loro":
+                System.out.println("Se ha encontrado el animal de la especie Loro:");
+                break;
+            case "canario":
+                System.out.println("Se ha encontrado el animal de la especie Canario:");
+                break;
         }
     }
 }

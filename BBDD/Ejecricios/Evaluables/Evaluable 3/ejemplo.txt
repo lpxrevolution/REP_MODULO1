@@ -1,3 +1,23 @@
+SELECT c.nombrecliente, sum(dp.cantidad*dp.preciounidad) AS unidades
+FROM clientes c, detallepedidos dp, pedidos p
+WHERE c.codigocliente=p.codigocliente AND p.codigopedido=dp.codigopedido 
+GROUP BY c.nombrecliente
+ORDER BY unidades DESC;
+
+
 SELECT c.nombrecliente, sum(dp.cantidad*dp.preciounidad) AS unidades 
 FROM clientes c, detallepedidos dp, pedidos p
-WHERE c.codigocliente=p.codigocliente AND p.codigopedido=dp.codigopedido GROUP BY c.nombrecliente;
+WHERE c.codigocliente=p.codigocliente AND p.codigopedido=dp.codigopedido
+having 1 = (SELECT sum(dp2.cantidad*dp2.preciounidad) AS unidades2 
+FROM clientes c2, detallepedidos dp2, pedidos p2 
+WHERE c2.codigocliente=p2.codigocliente AND p2.codigopedido=dp2.codigopedido
+HAVING unidades2>unidades);
+
+
+SELECT m.nombre AS "Película", m.precio AS "Precio unitario", COUNT(laa.numlinea) AS "Unidades Alquiladas" 
+FROM materiales m, lineas_alqafi laa, peliculas p 
+WHERE m.idmaterial=laa.idmaterial AND laa.idmaterial=p.idmaterial
+HAVING (SELECT "Unidades Alquiladas" as unidades2
+FROM materiales m2, lineas_alqafi laa2, peliculas p2 
+WHERE m2.idmaterial=laa2.idmaterial AND laa2.idmaterial=p2.idmaterial
+HAVING unidades2>="Unidades Alquiladas");
