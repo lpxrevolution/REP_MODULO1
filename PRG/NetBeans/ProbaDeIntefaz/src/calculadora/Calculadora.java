@@ -48,6 +48,11 @@ public class Calculadora extends javax.swing.JFrame {
         botonResta.setText("Resta");
 
         botonMultiplicar.setText("Multiplicar");
+        botonMultiplicar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonMultiplicarActionPerformed(evt);
+            }
+        });
 
         botonDividir.setText("Dividir");
 
@@ -132,6 +137,10 @@ public class Calculadora extends javax.swing.JFrame {
             labelResultado.setText("Números introducidos incorrectos");
         }
     }//GEN-LAST:event_botonSumaActionPerformed
+
+    private void botonMultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonMultiplicarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonMultiplicarActionPerformed
     private void obetnerNumeros()
     {
         
